@@ -1,0 +1,488 @@
+id,category_id,language_id,publication_id,feed_url,category_name,pub_name,language_name,is_active
+285,10,2,32,http://rss.jagran.com/naidunia/jio/trending/national.xml?utm_source=jio-xnews&utm_medium=referral&utm_campaign=Naidunia_trending-nat,Top Stories,Naidunia,Hindi,True
+9561,11,1,1501,https://udaipurkiran.in/category/entertainment/feed/,Entertainment,Udaipur Kiran,English,True
+12745,2,3,1808,https://lokmat.news18.com/feeds/jio/sport/,Sports,News18 Lokmat,Marathi,True
+13632,5,1,58,https://www.moneycontrol.com/news/listing/business/makets/page-1/,Business,moneycontrol,English,True
+12338,4,2,231,https://hindi.oneindia.com/rss/feeds/hindi-religion-spirituality-fb.xml,Lifestyle,OneIndia Hindi,Hindi,True
+13315,9,1,1860,https://newsnext.live/category/world-news/feed/,World,News Next,English,True
+16027,58,2,1178,https://hindi.latestly.com/dailyhunt-feed/politics.xml,National,Latestly Hindi,Hindi,True
+14042,8,1,1557,https://newsable.asianetnews.com/rss/jio/life/health,Health,Asianet Newsable,English,True
+12777,58,13,1809,https://bengali.news18.com/feeds/jio/south-bengal/midnapore/,National,News18 Bangla,Bangla,True
+8134,8,2,1346,https://www.timesnowhindi.com/feeds/jio-hin-health.xml,Health,Times Now Hindi,Hindi,True
+16107,161,2,2055,https://api.livehindustan.com/feeds/rss/astrology/rssfeed.xml,Astrology,Live Hindustan,Hindi,True
+7967,10,3,1328,https://sarkarnama.esakal.com/api/v1/collections/maharashtra.rss,Top Stories,Sarkarnama,Marathi,True
+13172,58,19,1848,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/assamese/assam/city,National,ETV Bharat Assam,Assamese,True
+9476,10,1,1485,http://www.biznextindia.com/category/odisha/feed/,Top Stories,BizNext India,English,True
+8123,8,1,1340,https://www.timesnownews.com/feeds/jio-en-health.xml,Health,Times Now,English,True
+12098,161,2,1763,https://www.divyahimachal.com/jiofeed-panchang.xml,Astrology,Divya Himachal,Hindi,True
+6132,58,3,1165,https://maharashtradesha.com/agriculture/feed/,National,Maharashtra Desha,Marathi,True
+11547,11,3,1715,https://www.navarashtra.com/movies/feed,Entertainment,Navarashtra,Marathi,True
+6985,4,2,1741,https://www.republicbharat.com/rss/lifestyle/health.xml,Lifestyle,Republic Bharat,Hindi,True
+14023,33,13,1524,https://bangla.asianetnews.com/rss/jio/life/fashion-beauty,Fashion,Asianet News Bangla,Bangla,True
+16053,9,2,2053,https://cms.iansnews.in/admin/jio-rss-feeds-hi/international/?token=6597a5602efecd570f2281b2ca6d501a6004a68b,World,IANS Live Hindi,Hindi,True
+9251,8,1,1438,https://english.nilkantho.in/category/health/feed/,Health,Nilkantho English,English,True
+13154,5,13,1847,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/bengali/west-bengal/business,Business,ETV Bharat Bengali,Bangla,True
+10024,10,18,1561,https://thesamikhsya.com/odia/politics/feed,Top Stories,The Samikhsya Odia,Odia,True
+8057,10,1,658,https://businesssandesh.in/category/news-and-current-affairs/feed/?fsk=bsfeed,Top Stories,Business Sandesh,English,True
+12132,11,7,1764,https://api.hindutamil.in/rss/jioxpress/cinema,Entertainment,The Hindu Tamil,Tamil,True
+14225,173,4,1935,https://gujarati.abplive.com/crime/amp-feed,Top News,ABP Asmita,Gujarati,True
+12391,33,1,929,https://www.nationalheraldindia.com/jiofeeds?section=fashion,Fashion,National Herald India,English,True
+11992,4,1,1758,https://www.mid-day.com/Resources/midday/rss/lifestyle.xml,Lifestyle,Mid-Day,English,True
+2830,5,1,793,http://www.newsbytesapp.com/rss/Business ,Business,NewsBytes,English,True
+7485,5,6,757,http://www.malayalamexpress.in/archives/category/business/feed,Business,Malayalam Express Online,Malayalam,True
+4916,11,4,43,http://sandesh.com/cms/xml/bollywood.xml,Entertainment,Sandesh,Gujarati,True
+6989,156,1,1156,https://www.latestly.com/dailyhunt-feed/education.xml,Career,Latestly,English,True
+13059,10,11,1831,https://10tv.in/feed/andhra-pradesh/subcatfeed,Top Stories,10TV,Telugu,True
+12697,11,1,1801,https://www.breezyscroll.com/category/entertainment/feed,Entertainment,BreezyScroll,English,True
+12793,173,4,1811,https://gujarati.news18.com/feeds/jio/explained/,Top News,News18 Gujarati,Gujarati,True
+9429,58,3,1479,https://www.esakal.com/api/v1/collections/uttar-maharashtra.rss,National,Sakal,Marathi,True
+6761,58,13,1215,https://bengali.indianexpress.com/politics/feed/?newsstand=newsstand,National,The Indian Express Bangla,Bangla,True
+13728,191,2,1805,https://hindi.news18.com/rss-local-gorakhpur.xml?hgjh,Regional,News18 Hindi,Hindi,True
+13834,10,1,1904,https://www.sportstiger.com/jio-amp-rss/topstories.xml,Top Stories,Sports Tiger,English,True
+8000,10,2,1335,https://grehlakshmi.com/feed,Top Stories,Grehlakshmi,Hindi,True
+14131,10,11,1930,https://teluguvaradhi.com/political/feed/,Top Stories,Telugu Varadhi,Telugu,True
+12017,58,7,1760,https://tamil.newsnext.live/category/national-news/feed,National,News Next Tamil,Tamil,True
+15116,3,2,1983,https://www.theindiadaily.com/technology/feed,Sci & Tech,India Daily,Hindi,True
+10600,44,1,1610,https://telanganatoday.com/auto/feed,Auto,Telangana Today,English,True
+15880,58,2,2048,https://hindi.indianwitness.com/jio/feed/news,National,The Indian Witness Hindi,Hindi,True
+9753,8,1,1532,https://www.foodhospitality.in/feed/,Health,Express Food & Hospitality,English,True
+10510,5,2,19,https://www.prabhatkhabar.com/api/v1/collections/business.rss,Business,Prabhat Khabar,Hindi,True
+11005,156,2,1658,http://www.lifeberrys.com/rss-feeds/career4education/jio/career-news.xml,Career,Career4education,Hindi,True
+14583,9,4,1956,https://www.gujaratijagran.com/feeds/international/feed,World,Gujarati Jagran,Gujarati,True
+10864,161,2,1638,https://www.astropanchang.in/jiorss/numerology,Astrology,Astropanchang,Hindi,True
+8271,11,2,1359,https://www.loktej.com/category/5013/entertainment/rss,Entertainment,Loktej,Hindi,True
+11496,2,3,1711,https://www.lokmat.com/xml/cricket.xml,Sports,Lokmat,Marathi,True
+13837,5,2,1105,https://www.sabkuchgyan.com/category/national-international/business/feed,Business,Sabkuch Gyan,Hindi,True
+11305,3,2,1685,https://24ghanteonline.com/category/tech-gadgets/feed,Sci & Tech,24 Ghante Online,Hindi,True
+13574,58,13,1877,https://fmbharat.com/be/nation/rss,National,FM Bharat Bangla,Bangla,True
+14275,161,6,190,https://www.metrovaartha.com/api/v1/collections/astro.rss,Astrology,MetroVaartha,Malayalam,True
+10780,8,1,9,https://www.firstpost.com/commonfeeds/v1/mfp/rss/health.xml,Health,Firstpost,English,True
+13171,10,19,1848,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/assamese/assam/bharat,Top Stories,ETV Bharat Assam,Assamese,True
+11812,10,1,1718,https://english.jagran.com/rss/jio/diwali2020.xml,Top Stories,The Daily Jagran,English,True
+13316,11,1,1860,https://newsnext.live/category/entertainment/feed/,Entertainment,News Next,English,True
+15288,5,19,2005,https://cliqindia.com/assamese/category/business/feed/,Business,Cliq India Assamese,Assamese,True
+6638,10,10,1204, https://www.rozanaspokesman.in/rss_feed/?sectionId=35,Top Stories,Rozana Spokesman,Punjabi,True
+13754,191,10,1237,https://punjab.news18.com/rss-local-ferozepur.xml?ds,Regional,News18 Punjabi,Punjabi,True
+9808,10,1,1179,https://news.abplive.com/news/amp-feed,Top Stories,ABP Live,English,True
+8122,4,1,1340,https://www.timesnownews.com/feeds/jio-en-lifestyle.xml,Lifestyle,Times Now,English,True
+14242,161,10,1936,https://punjabi.abplive.com/astro/amp-feed,Astrology,ABP Sanjha,Punjabi,True
+11126,10,2,4,http://rss.jagran.com/jioRSS/ayodhya/keyword.xml,Top Stories,Dainik Jagran,Hindi,True
+11883,161,2,1746,https://upuklive.com/astrology/feed.xml,Astrology,UP UK Live,Hindi,True
+14299,4,1,1326,https://theprint.in/category/pageturner/feed/,Lifestyle,The Print,English,True
+9928,44,1,20,https://www.news18.com/feeds/jio/auto/,Auto,News18,English,True
+13517,44,1,1826,https://vroomhead.com/category/commercial-vehicles/feed/,Auto,Vroom Head,English,True
+13187,58,4,1849,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/gujarati/gujarat/state,National,ETV Bharat Gujarati,Gujarati,True
+10476,4,2,1595,https://www.navbharatsamay.com/lifestyle/feed/,Lifestyle,Navbharat Samay Hindi,Hindi,True
+5484,69,2,1107,https://www.navjivanindia.com/jiofeeds?section=economy,Money ,Navjivan,Hindi,True
+9424,10,3,1479,https://www.esakal.com/api/v1/collections/mumbai.rss,Top Stories,Sakal,Marathi,True
+15489,58,6,2016,https://www.newsmalayalam.com/national,National,News Malayalam 24x7,Malayalam,True
+9730,11,13,1524,https://bangla.asianetnews.com/rss/jio/entertainment,Entertainment,Asianet News Bangla,Bangla,True
+14393,191,6,1954,https://janmabhumi.in/local-news/feed,Regional,Janmabhumi,Malayalam,True
+15186,4,3,1992,https://www.newsdanka.com/lifestyle/,Lifestyle,News Danka,Marathi,True
+14238,156,10,1936,https://punjabi.abplive.com/news/education/amp-feed,Career,ABP Sanjha,Punjabi,True
+12466,69,1,1787,https://www.thebridgechronicle.com/stories.rss?section-id=24054&time-period=last-7-days,Money ,The Bridge Chronicle,English,True
+13273,11,10,1856,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/punjabi/punjab/sitara,Entertainment,ETV Bharat Punjabi,Punjabi,True
+11174,10,11,1673,https://telugu.newsmeter.in/top-stories/feed,Top Stories,NewsMeter Telugu,Telugu,True
+5496,5,1,58,https://www.moneycontrol.com/news/jio-feeds/budget-news.xml,Business,moneycontrol,English,True
+12273,10,11,1766,https://tv9telugu.com/odd-news/feed/catfeed,Top Stories,TV9 Telugu,Telugu,True
+12294,58,4,1769,https://tv9gujarati.com/national/feed/catfeed/subcatfeed,National,TV9 Gujarati,Gujarati,True
+14328,173,6,1947,https://anweshanam.com/news/feed/,Top News,Anweshanam,Malayalam,True
+10662,4,6,1615,https://www.twentyfournews.com/category/lifestyle/feed,Lifestyle,24 News,Malayalam,True
+12741,58,3,1808,https://lokmat.news18.com/feeds/jio/nashik/,National,News18 Lokmat,Marathi,True
+13405,2,7,1865,https://api.hindutamil.in/kmd/news/sports/,Sports,Kamadenu,Tamil,True
+8193,5,2,1348,https://newstrack.com/rss/category/business/feed,Business,Newstrack Hindi,Hindi,True
+9140,10,1,1420,https://www.shethepeople.tv/feed,Top Stories,SheThePeople,English,True
+14123,4,11,1929,https://pakkafilmy.com/telugu/category/lifestyle/feed,Lifestyle,Pakka Filmy,Telugu,True
+13542,2,3,1833,https://jalgaonlive.news/tag/union-budget-2022/feed/,Sports,Jalgaon Live News,Marathi,True
+12805,58,2,1628,"https://www.ndtv.com/apis/article/category-listing/client_key/jio-news-eecfa5f3a3f9e9bbdf52db61d8b5cdfe/?category=india-news&s=ndtv-khabar&page=1&pagesize=20&format=xml&extra_params=category,description,fullimage,nyt,source,video_id",National,NDTV India,Hindi,True
+13484,180,2,1805,https://hindi.news18.com/feeds/jio/tag/t20-world-cup/,cricket,News18 Hindi,Hindi,True
+9923,11,1,20,https://www.news18.com/feeds/jio/movies/,Entertainment,News18,English,True
+10448,58,7,1592,https://kathir.news/politics/feed,National,Kathir News,Tamil,True
+11896,161,2,1167,https://www.inextlive.com/rss1/inextrel/keyword/rashifal-2021.xml,Astrology,Inext Live,Hindi,True
+13943,173,7,1916,https://tamil.abplive.com/elections/amp-feed,Top News,ABP Nadu,Tamil,True
+11716,11,1,586,https://www.spotboye.com/feed/6c930f6569003d497ecf/trending,Entertainment,SpotboyE,English,True
+9264,2,13,1440,https://www.nilkantho.in/category/news/sports/feed/,Sports,Nilkantho,Bangla,True
+11135,161,7,1667,https://dinasuvadu.com/api/jio/?cat=astrology,Astrology,Dinasuvadu,Tamil,True
+13909,69,7,1916,https://tamil.abplive.com/budget/amp-feed,Money ,ABP Nadu,Tamil,True
+13133,4,19,1285,https://assam.nenow.in/culture/feed,Lifestyle,Northeast Now,Assamese,True
+11326,4,18,1688,https://www.odiaspotnews.in/lifestyleRSS,Lifestyle,Odia Spot News,Odia,True
+11500,4,3,1711,https://www.lokmat.com/feeds/jio/Relationships.xml,Lifestyle,Lokmat,Marathi,True
+16008,2,1,1156,https://www.latestly.com/dailyhunt-feed/hockey.xml,Sports,Latestly,English,True
+6138,58,3,1165,https://maharashtradesha.com/uttar-maharashtra/feed/,National,Maharashtra Desha,Marathi,True
+4196,156,9,977,http://kannada.careerindia.com/rss/news-fb.xml,Career,Careerindia kannada,Kannada,True
+14076,2,3,1922,https://azadmarathi.com/sports/feed/,Sports,Azad Marathi,Marathi,True
+11187,10,11,1236,https://telugu.news18.com/feeds/jio/india-china/,Top Stories,News18 Telugu,Telugu,True
+12818,10,3,1815,https://hellokrushi.com/category/feed/,Top Stories,Hello Krushi,Marathi,True
+15606,58,1,2034,https://www.catchkaro.in/feed/,National,catchkaro,English,True
+7427,3,2,1268,https://hindi.dynamitenews.com/technology/feed,Sci & Tech,Dynamite News Hindi,Hindi,True
+15353,5,1,2011,https://www.republicbiz.com/rss/companies/startups.xml,Business,Republic Business,English,True
+8812,161,7,1400,https://tamilminutes.com/category/astrology/feed/,Astrology,Tamil Minutes,Tamil,True
+16099,3,4,2056,https://newscapital.com/category/technology/rss.xml,Sci & Tech,News Capital,Gujarati,True
+13018,44,6,1827,https://ml.vroomhead.com/feed/,Auto,Vroom Head Malayalam,Malayalam,True
+6238,10,3,53,https://www.loksatta.com/category/maharashtra/feed/?newsstand=JioNewsApp,Top Stories,Loksatta,Marathi,True
+8958,2,4,1375,https://navgujaratsamay.com/rss/sports,Sports,Navgujarat Samay,Gujarati,True
+13755,191,10,1237,https://punjab.news18.com/rss-local-mohali.xml?ds,Regional,News18 Punjabi,Punjabi,True
+15107,58,2,1983,https://www.theindiadaily.com/india/feed,National,India Daily,Hindi,True
+11266,58,2,1167,https://www.inextlive.com/rss1/inextrel/patna.xml,National,Inext Live,Hindi,True
+14851,11,1,1240,https://api-en.cnbctv18.com/nodeapi/v1/cne/feeds/jio/entertainment,Entertainment,CNBC TV18,English,True
+11200,44,2,1674,https://www.ibc24.in/automobiles-news/feed/catfeed.xml,Auto,IBC24,Hindi,True
+14193,58,13,1934,https://bengali.abplive.com/news/india/amp-feed,National,ABP Ananda,Bangla,True
+11690,9,1,1727,https://southasiamonitor.org/rss_nepal.xml,World,South Asia Monitor,English,True
+8328,9,1,1198,https://www.freepressjournal.in/stories.rss?section-id=9756&format=jio-news,World,The Free Press Journal,English,True
+12201,173,11,1766,https://tv9telugu.com/feed/jioampfeed,Top News,TV9 Telugu,Telugu,True
+15112,5,2,1983,https://www.theindiadaily.com/utility/feed,Business,India Daily,Hindi,True
+11911,11,11,1750,https://www.vaartha.com/news/movies/feed/,Entertainment,Vaartha News,Telugu,True
+15285,173,13,2004,https://cliqindia.com/bengali/category/regional/feed/,Top News,Cliq India Bengali,Bangla,True
+13621,10,1,1712,https://www.vishvasnews.com/xml_feed/jiofeed/jionewspoliticsenglish.xml,Top Stories,Vishvas News,English,True
+13153,9,13,1847,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/bengali/west-bengal/international,World,ETV Bharat Bengali,Bangla,True
+13086,10,2,1839,https://hindi.revoi.in/feed/,Top Stories,Revoi Hindi,Hindi,True
+10258,173,6,1216,https://malayalam.indianexpress.com/news/feed/?newsstand=JioNewsApp,Top News,The Indian Express Malayalam,Malayalam,True
+8135,3,2,1346,https://www.timesnowhindi.com/feeds/jio-hin-technology-science.xml,Sci & Tech,Times Now Hindi,Hindi,True
+10698,9,1,1617,https://www.themangonews.com/category/extras/international/feed,World,Mango News,English,True
+11189,10,18,1609,https://odia.news18.com/feeds/jio/india-china/,Top Stories,News18 Odia,Odia,True
+13644,192,3,1481,https://agrowon.esakal.com/api/v1/collections/animal-diseases.rss,Agro,Agrowon,Marathi,True
+12193,4,3,1771,https://www.tv9marathi.com/lifestyle/feed/catfeed,Lifestyle,TV9 Marathi,Marathi,True
+10520,3,13,1606,https://aajkaal.in/rssfeed/feed/categorynewsfeed/6,Sci & Tech,AajKaal,Bangla,True
+15256,11,2,1999,https://cliqindia.com/hindi/category/entertainment/feed,Entertainment,Cliq India Hindi,Hindi,True
+13123,161,4,1846,https://gujarativiralkhabar.in/category/jyotish/feed/,Astrology,Gujarati Viral Khabar,Gujarati,True
+12554,58,18,1783,https://odia.oneindia.com/rss/odia-national-fb.xml,National,OneIndia Odia,Odia,True
+9888,9,2,1554,http://www.samacharnama.com/world/feed/,World,Samachar Nama,Hindi,True
+8486,11,6,673,https://silma.in/malayalamcinema/upcoming/feed,Entertainment,Silma,Malayalam,True
+15113,2,2,1983,https://www.theindiadaily.com/sports/feed,Sports,India Daily,Hindi,True
+11909,58,2,1749,https://www.theendnews.com/storage/app/rss_india.xml,National,The End News,Hindi,True
+13786,160,11,1895,https://www.telugupost.com/category/movie-review/feeds.xml,Movie Reviews ,Telugu Post,Telugu,True
+13692,191,13,1809,https://bengali.news18.com/rss-local-hooghly.xml?ds,Regional,News18 Bangla,Bangla,True
+14243,44,10,1936,https://punjabi.abplive.com/auto/amp-feed,Auto,ABP Sanjha,Punjabi,True
+13131,44,19,1285,https://assam.nenow.in/automobile/feed,Auto,Northeast Now,Assamese,True
+15329,11,3,2009,https://marathi.oneindia.com/rss/feeds/marathi-entertainment-fb.xml,Entertainment,Oneindia Marathi,Marathi,True
+6966,11,6,1222,https://malayalam.news18.com/feeds/jio/film,Entertainment,News18 Malayalam,Malayalam,True
+9192,58,6,1166,http://livenewage.com/category/news/feed,National,Live Newage,Malayalam,True
+7428,8,2,1268,https://hindi.dynamitenews.com/health/feed,Health,Dynamite News Hindi,Hindi,True
+11143,5,7,1667,https://dinasuvadu.com/api/jio/?cat=trade,Business,Dinasuvadu,Tamil,True
+15536,11,6,2017,https://eveningkerala.com/topics/movie/feed,Entertainment,Evening Kerala,Malayalam,True
+7303,58,11,1236,https://telugu.news18.com/feeds/jio/politics/,National,News18 Telugu,Telugu,True
+9327,10,2,1453,https://indiaspendhindi.com/custom_feeds_partners.xml,Top Stories,India Spend Hindi,Hindi,True
+10310,58,11,638,https://www.ntnews.com/national.rss,National,Namasthe Telangana,Telugu,True
+13527,2,1,20,https://www.news18.com/feeds/jio/sports/,Sports,News18,English,True
+10729,10,1,1621,"https://www.ndtv.com/apis/article/category-listing/client_key/jio-news-eecfa5f3a3f9e9bbdf52db61d8b5cdfe/?category=__topstories&s=ndtv-news&page=1&pagesize=20&format=xml&extra_params=category,description,fullimage,nyt,source,video_id",Top Stories,NDTV,English,True
+14355,58,6,1951,https://janamtv.com/india/feed/,National,Janam Tv,Malayalam,True
+14180,44,3,1933,https://marathi.abplive.com/news/auto/amp-feed,Auto,ABP Majha,Marathi,True
+10904,4,18,1641,https://www.dharitri.com/category/fursat/feed/,Lifestyle,Dharitri,Odia,True
+12270,173,11,1766,https://tv9telugu.com/breaking-news/feed/catfeed,Top News,TV9 Telugu,Telugu,True
+4912,2,4,43,http://sandesh.com/cms/xml/tennis.xml,Sports,Sandesh,Gujarati,True
+14008,173,6,1549,https://www.asianetnews.com/rss/jio/news/kerala,Top News,Asianet News Malayalam,Malayalam,True
+12462,3,1,1787,https://www.thebridgechronicle.com/stories.rss?section-id=24061&time-period=last-7-days,Sci & Tech,The Bridge Chronicle,English,True
+11738,3,3,1729,https://thodkyaatghadamodi.in/category/gadgets/feed/,Sci & Tech,Thodkyaat Ghadamodi,Marathi,True
+11636,11,1,586,https://www.spotboye.com/feed/6c930f6569003d497ecf/bollywood,Entertainment,SpotboyE,English,True
+10783,44,2,1628,"https://www.ndtv.com/apis/article/category-listing/client_key/jio-news-eecfa5f3a3f9e9bbdf52db61d8b5cdfe/?category=latest&s=carandbike-hindi&page=1&pagesize=20&format=rss&extra_params=category,description,fullimage,nyt,source,video_id",Auto,NDTV India,Hindi,True
+12458,2,1,1787,https://www.thebridgechronicle.com/api/v1/collections/sports.rss,Sports,The Bridge Chronicle,English,True
+8955,9,4,1375,https://navgujaratsamay.com/rss/europe,World,Navgujarat Samay,Gujarati,True
+11882,9,2,1746,https://upuklive.com/International/feed.xml,World,UP UK Live,Hindi,True
+12120,58,2,32,http://rss.jagran.com/naidunia/jio/chhattisgarh/ambikapur.xml?utm_source=jio-xnews&utm_medium=referral&utm_campaign=Naidunia_ambikapur,National,Naidunia,Hindi,True
+15303,2,9,2007,https://cliqindia.com/kannada/category/sports/feed/,Sports,Cliq India Kannada,Kannada,True
+10850,4,2,1105,https://www.sabkuchgyan.com/category/beauty/feed,Lifestyle,Sabkuch Gyan,Hindi,True
+12265,156,3,1771,https://www.tv9marathi.com/education/feed/catfeed,Career,TV9 Marathi,Marathi,True
+9218,10,10,332,http://rss.jagran.com/jiopunjabi/punjab.xml,Top Stories,Punjabi Jagran,Punjabi,True
+11889,69,1,1747,https://www.businessinsider.in/jio_feed_money.cms,Money ,Business Insider,English,True
+10240,173,18,1028,https://odiapua.com/feed/,Top News,Odia Pua,Odia,True
+8039,9,1,1339,https://www.outlookindia.com/rss/section/20,World,Outlook,English,True
+11780,160,1,1734,https://www.sify.com/rss/content?Channel=Movies&ContentType=reviews,Movie Reviews ,Sify,English,True
+14872,10,1,1975,https://newskarnataka.com/feed,Top Stories,News Karnataka English,English,True
+9200,44,2,1171,https://www.dakshinbharat.com/category/48/automobile/rss,Auto,Dakshin Bharat,Hindi,True
+9783,58,2,1346,https://hindi.timesnownews.com/feeds/jio-hi-elections.xml,National,Times Now Hindi,Hindi,True
+14125,5,11,1929,https://pakkafilmy.com/telugu/category/business/feed,Business,Pakka Filmy,Telugu,True
+13973,9,11,1917,https://telugu.abplive.com/news/world/amp-feed,World,ABP Desam,Telugu,True
+11632,44,1,1720,https://www.autox.com/jionews-articles-feed/,Auto,autoX,English,True
+10037,2,13,1565,https://thewall.in/rssfeed?cat=sports,Sports,The Wall,Bangla,True
+12819,11,3,1816,https://hellobollywood.in/feed/,Entertainment,Hello Bollywood,Marathi,True
+6643,4,10,1204,https://www.rozanaspokesman.in/rss_feed/?sectionId=49,Lifestyle,Rozana Spokesman,Punjabi,True
+4897,10,4,43,http://sandesh.com/cms/xml/newspaper.xml,Top Stories,Sandesh,Gujarati,True
+8483,11,6,673,https://silma.in/malayalamcinema/latest/feed,Entertainment,Silma,Malayalam,True
+16016,58,1,1156,https://www.latestly.com/dailyhunt-feed/fact-check.xml,National,Latestly,English,True
+12699,69,1,1801,https://www.breezyscroll.com/category/money/feed,Money ,BreezyScroll,English,True
+13722,191,4,1811,https://gujarati.news18.com/rss-local-valsad.xml?hgjh,Regional,News18 Gujarati,Gujarati,True
+8815,156,7,1400,https://tamilminutes.com/category/education-career/feed/,Career,Tamil Minutes,Tamil,True
+15877,3,1,2047,https://www.indianwitness.com/jio/feed/technology,Sci & Tech,The Indian Witness,English,True
+8159,2,1,1340,https://www.timesnownews.com/feeds/jio-en-sports.xml,Sports,Times Now,English,True
+13003,2,2,1824,https://samachartoday.co.in/rss-category.php?id=4,Sports,Samachar Today,Hindi,True
+9187,3,6,1166,http://livenewage.com/category/technology/feed,Sci & Tech,Live Newage,Malayalam,True
+6290,44,2,4,http://rss.jagran.com/jioRSS/automobile.xml?utm_source=jio-xnews&utm_medium=referral&utm_campaign=jagran_automobile ,Auto,Dainik Jagran,Hindi,True
+12187,2,3,1771,https://www.tv9marathi.com/sports/feed/catfeed,Sports,TV9 Marathi,Marathi,True
+14821,69,1,1969,https://bitcoinworld.co.in/feed/,Money ,Bitcoin World,English,True
+10212,173,13,225,https://bengali.oneindia.com/rss/feeds/west-bengal-news-fb.xml,Top News,OneIndia Bangla,Bangla,True
+9604,58,11,1507,http://www.telugumedia.com/category/politics/feed/,National,Telugu Media,Telugu,True
+13638,58,2,1881,https://localvocalindia.com/category/uttar-pradesh/feed/,National,Local Vocal India,Hindi,True
+15275,58,11,2002,https://cliqindia.com/telugu/category/national/feed/,National,Cliq India Telugu,Telugu,True
+15166,58,8,1990,https://urdu.bharatexpress.com/postxml.php?slug=politics,National,Bharat Express Urdu,Urdu,True
+16100,44,4,2056,https://newscapital.com/category/automobile/rss.xml,Auto,News Capital,Gujarati,True
+10715,3,2,1270,https://www.bhaskarhindi.com/category/technology/feeds.xml,Sci & Tech,Dainik Bhaskar,Hindi,True
+13212,58,6,1851,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/malayalam/kerala/district,National,ETV Bharat Malayalam,Malayalam,True
+13761,191,10,1237,https://punjab.news18.com/rss-local-sangrur.xml?ds,Regional,News18 Punjabi,Punjabi,True
+13626,33,1,1880,https://www.tag24.com/sitemap/jio/fashion-beauty,Fashion,TAG24,English,True
+8814,4,7,1400,https://tamilminutes.com/category/lifestyle/feed/,Lifestyle,Tamil Minutes,Tamil,True
+119,58,2,19,https://www.prabhatkhabar.com/api/v1/collections/state.rss,National,Prabhat Khabar,Hindi,True
+7504,10,6,1190,http://pradhanavartha.in/archives/category/kerala/feed,Top Stories,Pradhana Vartha,Malayalam,True
+12255,3,4,1769,https://tv9gujarati.com/technology/feed/catfeed,Sci & Tech,TV9 Gujarati,Gujarati,True
+8620,5,3,1386,https://arthasakshar.com/feed/,Business,Arthasakshar,Marathi,True
+7761,10,1,1294,https://www.udayavani.com/englishnews-cat/state/feed,Top Stories,Udayavani English,English,True
+13726,191,2,1805,https://hindi.news18.com/rss-local-kanpur.xml?hgjh,Regional,News18 Hindi,Hindi,True
+15599,2,1,2032,https://cricketgully.com/rss-feed/,Sports,Cricket Gully,English,True
+12984,4,9,1822,https://lovelydunia.com/category/cooking/feed/,Lifestyle,Lovely Dunia,Kannada,True
+16076,5,2,1767,https://www.tv9hindi.com/jionews/business/feed,Business,TV9 Hindi,Hindi,True
+15592,156,1,2031,https://cms.patrika.com/googlefeed/en/blog/category/education-news,Career,Patrika English,English,True
+13866,161,2,1911,http://content.ganeshaspeaks.com/RJIOxpressnews/RJIOxpressnewsDailyHin.feed,Astrology,GaneshaSpeaks Hindi,Hindi,True
+9740,11,11,1526,https://telugu.asianetnews.com/rss/jio/entertainment,Entertainment,Asianet News Telugu,Telugu,True
+13617,173,1,58,https://www.moneycontrol.com/news/assembly-elections-2022.xml,Top News,moneycontrol,English,True
+14360,3,6,1951,https://janamtv.com/tech/feed/,Sci & Tech,Janam Tv,Malayalam,True
+8126,10,1,1340,https://www.timesnownews.com/feeds/jio-en-the-buzz.xml,Top Stories,Times Now,English,True
+15126,58,2,1985,https://www.thejbt.com/india/feed,National,Janbhawna Times,Hindi,True
+12590,180,10,1237,https://punjabi.news18.com/feeds/jio/tag/ipl-2021/,cricket,News18 Punjabi,Punjabi,True
+14186,3,3,1933,https://marathi.abplive.com/news/technology/amp-feed,Sci & Tech,ABP Majha,Marathi,True
+7045,5,1,9,https://www.firstpost.com/commonfeeds/v1/mfp/rss/business.xml,Business,Firstpost,English,True
+12014,2,9,1759,https://kannada.newsnext.live/category/sports/feed/,Sports,News Next Kannada,Kannada,True
+8144,5,1,1340,https://www.timesnownews.com/feeds/jio-en-business-economy.xml,Business,Times Now,English,True
+10348,11,18,1566,https://odisha.live/category/entertainment/feed/,Entertainment,Odisha Live,Odia,True
+8813,161,7,1400,https://tamilminutes.com/category/spirituality/feed/,Astrology,Tamil Minutes,Tamil,True
+12722,58,2,1805,https://hindi.news18.com/feeds/jio/maharashtra/,National,News18 Hindi,Hindi,True
+9893,156,2,1554,http://www.samacharnama.com/education/feed,Career,Samachar Nama,Hindi,True
+5154,10,2,1088,https://www.newsnationtv.com/rss/categories/specials/monsoon-session-of-parliament,Top Stories,News Nation,Hindi,True
+11296,161,2,1685,https://24ghanteonline.com/category/religion/feed,Astrology,24 Ghante Online,Hindi,True
+15155,58,2,1989,http://bharatexpress.com/postxml.php?slug=india,National,Bharat Express Hindi,Hindi,True
+15823,173,11,2043,https://mahaanews.co.in/feed/,Top News,Mahaa News,Telugu,True
+12335,5,2,231,https://hindi.oneindia.com/rss/feeds/hindi-business-fb.xml,Business,OneIndia Hindi,Hindi,True
+11442,58,7,1235,https://tamil.news18.com/feeds/jio/tamil-nadu/namakkal-district/,National,News18 Tamil,Tamil,True
+8150,2,2,906,http://www.hastakshep.com/category/news-2/sports/,Sports,Hastakshep Hindi,Hindi,True
+11893,44,1,1747,https://www.businessinsider.in/jio_feed_auto.cms,Auto,Business Insider,English,True
+12142,3,7,1764,https://api.hindutamil.in/rss/jioxpress/technology,Sci & Tech,The Hindu Tamil,Tamil,True
+8811,2,7,1400,https://tamilminutes.com/category/sports/feed/,Sports,Tamil Minutes,Tamil,True
+13208,58,6,1851,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/malayalam/kerala/crime,National,ETV Bharat Malayalam,Malayalam,True
+14222,192,4,1935,https://gujarati.abplive.com/agriculture/amp-feed,Agro,ABP Asmita,Gujarati,True
+16056,3,2,2053,https://cms.iansnews.in/admin/jio-rss-feeds-hi/science-tech/?token=6597a5602efecd570f2281b2ca6d501a6004a68b,Sci & Tech,IANS Live Hindi,Hindi,True
+11292,9,2,1685,https://24ghanteonline.com/category/international/feed,World,24 Ghante Online,Hindi,True
+15881,11,2,2048,https://hindi.indianwitness.com/jio/feed/entertainment,Entertainment,The Indian Witness Hindi,Hindi,True
+14576,9,2,1669,https://hindi.thequint.com/api/v1/collections/gaza-israel-conflict-palestine-hamas.rss,World,The Quint Hindi,Hindi,True
+9775,10,1,1538,https://www.shortpedia.com/rss-feeds/topstories-english.xml,Top Stories,Shortpedia,English,True
+13008,58,2,1824,https://samachartoday.co.in/rss-category.php?id=32,National,Samachar Today,Hindi,True
+8155,5,2,906,http://www.hastakshep.com/category/news-2/business-and-economics/,Business,Hastakshep Hindi,Hindi,True
+8953,10,4,1375,https://navgujaratsamay.com/rss/north-gujarat,Top Stories,Navgujarat Samay,Gujarati,True
+7466,10,2,1275,https://hindi.newsbytesapp.com/rss2/jio/Weird ,Top Stories,NewsBytes Hindi,Hindi,True
+6889,11,3,1232,https://inshortsmarathi.com/entertainment/feed/,Entertainment,InShorts Marathi,Marathi,True
+11733,58,3,1729,https://thodkyaatghadamodi.in/category/nation/feed/,National,Thodkyaat Ghadamodi,Marathi,True
+14469,192,3,1481,https://agrowon.esakal.com/api/v1/collections/schemes-and-government-resolutions.rss,Agro,Agrowon,Marathi,True
+9568,10,1,1501,https://udaipurkiran.com/category/sports/feed/,Top Stories,Udaipur Kiran,English,True
+12740,58,3,1808,https://lokmat.news18.com/feeds/jio/aurangabad/,National,News18 Lokmat,Marathi,True
+6537,4,1,1110,https://feeds.thestatesman.com/jio-lifestyle.xml,Lifestyle,The Statesman,English,True
+12670,3,1,1799,https://thevocalnews.com/category/science/feed/gn,Sci & Tech,The Vocal News,English,True
+3320,10,9,303,http://www.varthabharati.in/taxonomy/term/19/feed,Top Stories,Varthabharati,Kannada,True
+10323,173,8,534,http://urdu.news18.com/feeds/jio/,Top News,News18 Urdu,Urdu,True
+13838,11,2,1105,https://www.sabkuchgyan.com/category/national-international/entertainment/feed,Entertainment,Sabkuch Gyan,Hindi,True
+13270,9,10,1856,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/punjabi/punjab/international,World,ETV Bharat Punjabi,Punjabi,True
+10185,5,1,1240,https://api-en.cnbctv18.com/nodeapi/v1/cne/feeds/jio/market,Business,CNBC TV18,English,True
+9708,58,2,1522,https://himachalabhiabhi.com/aaspados/uttarakhand/feed,National,Himachal Abhi Abhi Hindi,Hindi,True
+6223,161,2,188,https://www.jansatta.com/religion/feed/?newsstand=JioNewsApp,Astrology,Jansatta,Hindi,True
+14208,192,13,1934,https://bengali.abplive.com/agriculture/amp-feed,Agro,ABP Ananda,Bangla,True
+11499,8,3,1711,https://www.lokmat.com/feeds/jio/Health.xml,Health,Lokmat,Marathi,True
+15862,5,2,2046,https://khabargaon.com/category/business/feed,Business,KhabarGaon,Hindi,True
+10023,4,18,1561,https://thesamikhsya.com/odia/lifestyle/feed,Lifestyle,The Samikhsya Odia,Odia,True
+10072,160,18,1575,https://odishasambad.in/category/manoranjan/feed,Movie Reviews ,Odisha Sambad,Odia,True
+12110,58,2,32,http://rss.jagran.com/naidunia/jio/madhya-pradesh/bhopal.xml?utm_source=jio-xnews&utm_medium=referral&utm_campaign=Naidunia_bhopal,National,Naidunia,Hindi,True
+11372,161,4,1336,https://www.vtvgujarati.com/rssfeed.php?cat_id=9368,Astrology,VTV Gujarati,Gujarati,True
+14001,69,2,1523,https://hindi.asianetnews.com/rss/jio/business-news/money-news,Money ,Asianet News Hindi,Hindi,True
+11873,9,11,1745,https://www.dishadaily.com/category/world/feed,World,Disha Daily,Telugu,True
+10901,2,18,1641,https://www.dharitri.com/category/sports-news/feed/,Sports,Dharitri,Odia,True
+13296,10,2,1859,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/hindi/haryana,Top Stories,ETV Bharat Hindi,Hindi,True
+13252,58,8,1854,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/urdu/national/bharat,National,ETV Bharat Urdu,Urdu,True
+8023,2,2,920,http://api.sportskeeda.com/v3/feeds/223,Sports,Sportskeeda Hindi,Hindi,True
+13950,44,11,1917,https://telugu.abplive.com/auto/amp-feed,Auto,ABP Desam,Telugu,True
+14071,10,3,1922,https://azadmarathi.com/news/feed/,Top Stories,Azad Marathi,Marathi,True
+8152,11,2,906,http://www.hastakshep.com/category/news-2/entertainment-and-bollywood/,Entertainment,Hastakshep Hindi,Hindi,True
+16106,9,2,2055,https://api.livehindustan.com/feeds/rss/international/rssfeed.xml,World,Live Hindustan,Hindi,True
+3759,5,1,561,https://www.goodreturns.in/rss/feeds/goodreturns-fb.xml,Business,Good Returns,English,True
+9826,5,7,1547,https://tamil.asianetnews.com/rss/jio/business,Business,Asianet News Tamil,Tamil,True
+15305,58,3,2008,https://cliqindia.com/marathi/category/national/feed/,National,Cliq India Marathi,Marathi,True
+14556,173,11,1960,https://www.bigtvlive.com/big-stories/feed,Top News,Big Tv Live,Telugu,True
+8382,160,9,228,http://kannada.filmibeat.com/rss/filmibeat-kannada-reviews-fb.xml,Movie Reviews ,FilmiBeat Kannada,Kannada,True
+10767,9,2,1628,"https://www.ndtv.com/apis/article/category-listing/client_key/jio-news-eecfa5f3a3f9e9bbdf52db61d8b5cdfe/?category=world&s=ndtv-khabar&page=1&pagesize=20&format=xml&extra_params=category,description,fullimage,nyt,source,video_id",World,NDTV India,Hindi,True
+6235,4,1,41,https://www.financialexpress.com/lifestyle/feed/?newsstand=JioNewsApp,Lifestyle,Financial Express,English,True
+12570,180,10,1678,https://punjabi.cricketnmore.com/jio-ipl-rss.xml,cricket,Cricketnmore Punjabi,Punjabi,True
+12735,156,1,1807,https://www.safalta.com/rss/partner/jio/en/blog.xml,Career,Safalta English,English,True
+9267,4,13,1440,https://www.nilkantho.in/category/lifestyle/feed/,Lifestyle,Nilkantho,Bangla,True
+13918,69,7,1916,https://tamil.abplive.com/business/ipo/amp-feed,Money ,ABP Nadu,Tamil,True
+10319,173,11,1236,https://telugu.news18.com/feeds/jio/national/,Top News,News18 Telugu,Telugu,True
+12471,5,1,1788,http://www.fastmailnews.com/rss-business-news,Business,Fast Mail News,English,True
+11511,160,3,1711,https://www.lokmat.com/feeds/jio/lokmatreviews.xml,Movie Reviews ,Lokmat,Marathi,True
+14558,11,11,1960,https://www.bigtvlive.com/entertainment/feed,Entertainment,Big Tv Live,Telugu,True
+9167,44,11,1429,https://telugu.latestly.com/rss/auto.xml,Auto,Latestly Telugu,Telugu,True
+11098,10,2,1664,https://www.nationalduniya.org/feeds-country,Top Stories,National Duniya,Hindi,True
+3529,8,13,900,http://bengali.boldsky.com/rss/bengali-boldsky-health-fb.xml%20Read%20more%20at:%20http://bengali.boldsky.com/rss/,Health,Boldsky Bangla,Bangla,True
+9195,8,6,1166,https://www.livenewage.com/category/health/feed,Health,Live Newage,Malayalam,True
+14217,5,4,1935,https://gujarati.abplive.com/news/business/amp-feed,Business,ABP Asmita,Gujarati,True
+10740,10,1,1621,"https://www.ndtv.com/apis/article/category-listing/client_key/jio-news-eecfa5f3a3f9e9bbdf52db61d8b5cdfe/?category=latest&s=ndtv-auto&page=1&pagesize=20&format=xml&extra_params=category,description,fullimage,nyt,source,video_id",Top Stories,NDTV,English,True
+20,11,2,4,http://rss.jagran.com/jioRSS/entertainment/bollywood.xml?utm_source=jio-xnews&utm_medium=referral&utm_campaign=jagran_entertainment-bollywood,Entertainment,Dainik Jagran,Hindi,True
+1427,160,2,4,http://rss.jagran.com/jioRSS/entertainment/reviews.xml?utm_source=jio-xnews&utm_medium=referral&utm_campaign=jagran_entertainmentreview,Movie Reviews ,Dainik Jagran,Hindi,True
+12470,9,1,1788,https://fastmail.news/en/world/rss,World,Fast Mail News,English,True
+11497,11,3,1711,https://www.lokmat.com/feeds/jio/Entertainment_Cinema.xml,Entertainment,Lokmat,Marathi,True
+15130,4,2,1985,https://www.thejbt.com/lifestyle/feed,Lifestyle,Janbhawna Times,Hindi,True
+13628,58,1,1880,https://www.tag24.com/sitemap/jio/politics,National,TAG24,English,True
+13481,161,9,1870,https://kannadanaadi.news/astrology/feed,Astrology,Kannadanaadi News,Kannada,True
+10791,58,1,1631,https://www.gulte.com/trends/feed,National,Gulte,English,True
+10899,58,18,1641,https://www.dharitri.com/category/national-news/feed/,National,Dharitri,Odia,True
+13732,191,2,1805,https://hindi.news18.com/rss-local-varanasi.xml?hgjh,Regional,News18 Hindi,Hindi,True
+9437,8,3,1479,https://www.esakal.com/api/v1/collections/health-fitness-wellness.rss,Health,Sakal,Marathi,True
+10181,173,2,542,https://zeenews.india.com/hindi/sitemaps/jio/top-stories-feed.xml,Top News,Zee Hindi,Hindi,True
+8280,58,9,1360,https://www.suddione.com/category/news-national/,National,Suddione,Kannada,True
+11197,58,2,1674,https://www.ibc24.in/country/feed,National,IBC24,Hindi,True
+15124,4,1,1984,https://businessoutrank.com/category/lifestyle/health/feed/,Lifestyle,Business Outrank,English,True
+9889,58,2,1554,http://www.samacharnama.com/states/feed,National,Samachar Nama,Hindi,True
+13248,9,8,1854,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/urdu/national/international,World,ETV Bharat Urdu,Urdu,True
+13639,8,2,1881,https://localvocalindia.com/category/health-and-fitness/feed/,Health,Local Vocal India,Hindi,True
+14803,156,2,1968,https://hindi.careerindia.com/rss/feeds/careerindia-hindi-fb.xml,Career,CareerIndia Hindi,Hindi,True
+4892,4,4,43,https://sandesh.com/rss/kids-world.xml,Lifestyle,Sandesh,Gujarati,True
+12789,58,4,1811,https://gujarati.news18.com/feeds/jio/gujarat/north-gujarat/,National,News18 Gujarati,Gujarati,True
+16039,33,2,1178,https://hindi.latestly.com/dailyhunt-feed/fashion.xml,Fashion,Latestly Hindi,Hindi,True
+10723,161,7,1620,https://a1tamilnews.com/category/astrology/feed/,Astrology,A1 Tamil News,Tamil,True
+2704,5,2,501,https://hindi.goodreturns.in/rss/feeds/goodreturns-hindi-fb.xml,Business,Good Returns Hindi,Hindi,True
+9269,161,13,1440,https://www.nilkantho.in/category/astro-tips/feed/,Astrology,Nilkantho,Bangla,True
+12274,10,11,1766,https://tv9telugu.com/off-beat-stories/feed/catfeed,Top Stories,TV9 Telugu,Telugu,True
+14575,9,1,1668,https://www.thequint.com/api/v1/collections/israel-palestine-conflict.rss,World,The Quint,English,True
+10615,10,1,1560,https://thesamikhsya.com/tag/top-news/feed,Top Stories,The Samikhsya,English,True
+7606,3,2,1270,https://www.bhaskarhindi.com/rss/technology.xml,Sci & Tech,Dainik Bhaskar,Hindi,True
+9431,2,3,1479,https://www.esakal.com/api/v1/collections/krida.rss,Sports,Sakal,Marathi,True
+6030,5,2,405,https://www.sanjeevnitoday.com/feed/finance/,Business,Sanjeevni Today,Hindi,True
+11270,10,1,20,https://www.news18.com/feeds/jio/explainers/,Top Stories,News18,English,True
+11876,58,2,1746,https://upuklive.com/deshvidesh/feed.xml,National,UP UK Live,Hindi,True
+13381,180,19,1848,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/assamese/assam/sports/cricket/ipl,cricket,ETV Bharat Assam,Assamese,True
+13538,10,3,1479,https://www.esakal.com/api/v1/collections/election.rss,Top Stories,Sakal,Marathi,True
+15159,5,2,1989,http://bharatexpress.com/postxml.php?slug=business,Business,Bharat Express Hindi,Hindi,True
+15232,161,7,1996,https://www.tv9tamilnews.com/jio-newsfeed/religion/,Astrology,TV9 Tamil,Tamil,True
+11919,58,11,1750,https://www.vaartha.com/telangana/feed/,National,Vaartha News,Telugu,True
+10717,173,18,1566,https://odisha.live/category/special/utkal-gourab-madhusudan-das/feed/,Top News,Odisha Live,Odia,True
+9506,10,7,1413,https://tamil.cinebar.in/top/feed.xml,Top Stories,Cinebar,Tamil,True
+15321,58,2,1107,https://www.navjivanindia.com/jiofeeds?section=videos,National,Navjivan,Hindi,True
+15299,9,9,2007,https://cliqindia.com/kannada/category/international/feed/,World,Cliq India Kannada,Kannada,True
+11501,3,3,1711,https://www.lokmat.com/feeds/jio/Tech.xml,Sci & Tech,Lokmat,Marathi,True
+14343,5,1,1948,https://english.loktej.com/category/1/business/rss,Business,Loktej English,English,True
+6144,58,2,1167,http://inextlive.jagran.com/rss1/inextrel/national.xml,National,Inext Live,Hindi,True
+14216,9,4,1935,https://gujarati.abplive.com/news/world/amp-feed,World,ABP Asmita,Gujarati,True
+12707,2,2,1784,https://hindi.insidesport.in/feed/,Sports,InsideSport Hindi,Hindi,True
+2698,69,6,799,http://malayalam.goodreturns.in/rss/malayalam-money-classroom-fb.xml,Money ,Good Returns Malayalam,Malayalam,True
+11216,9,1,1474,https://www.revyuh.com/news/politics/feed/,World,Revyuh,English,True
+13141,9,1,1835,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/english/national/international,World,ETV Bharat,English,True
+9707,2,2,1522,https://himachalabhiabhi.com/sports/feed,Sports,Himachal Abhi Abhi Hindi,Hindi,True
+12780,9,4,1811,https://gujarati.news18.com/feeds/jio/national-international/,World,News18 Gujarati,Gujarati,True
+10406,2,2,1588,https://www.lokmatnews.in/feeds/jio/football.xml,Sports,Lokmat Samachar,Hindi,True
+10392,10,1,1587,https://english.lokmat.com/feeds/jio/lokmat-times.xml,Top Stories,Lokmat Times,English,True
+15547,5,1,2018,https://www.etnownews.com/feeds/jio-en-markets.xml,Business,ET NOW,English,True
+14953,44,1,1977,https://www.spinny.com/blog/index.php/category/guides/feed/gn,Auto,Spinny,English,True
+11318,44,1,1267,https://www.dynamitenews.com/automobile/feed,Auto,Dynamite News,English,True
+11198,11,2,1674,https://www.ibc24.in/entertainment/feed,Entertainment,IBC24,Hindi,True
+14033,161,9,1920,https://kannada.asianetnews.com/rss/jio/astrology,Astrology,Asianet News Kannada,Kannada,True
+12018,11,7,1760,https://tamil.newsnext.live/category/cinema/feed,Entertainment,News Next Tamil,Tamil,True
+13179,9,4,1849,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/gujarati/gujarat/international,World,ETV Bharat Gujarati,Gujarati,True
+88,2,7,22,http://www.dinakaran.com/rss_news.asp?id=16,Sports,Dinakaran,Tamil,True
+13384,180,1,1835,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/english/national/sports/cricket/ipl,cricket,ETV Bharat,English,True
+10851,8,2,1105,https://www.sabkuchgyan.com/category/health/feed,Health,Sabkuch Gyan,Hindi,True
+9916,10,1,1557,https://newsable.asianetnews.com/rss,Top Stories,Asianet Newsable,English,True
+12671,2,1,1799,https://thevocalnews.com/category/sports/feed/gn,Sports,The Vocal News,English,True
+9861,3,2,1160,https://www.prabhasakshi.com/rss/technologyarticles.xml,Sci & Tech,Prabhasakshi,Hindi,True
+4113,5,1,964,https://www.bqprime.com/feed/jionews/business,Business,NDTV Profit,English,True
+10187,173,1,9,https://www.firstpost.com/commonfeeds/v1/mfp/rss/india.xml,Top News,Firstpost,English,True
+14274,2,6,190,https://www.metrovaartha.com/api/v1/collections/sports.rss,Sports,MetroVaartha,Malayalam,True
+6229,5,1,41,https://www.financialexpress.com/infrastructure/feed/?newsstand=JioNewsApp,Business,Financial Express,English,True
+12640,58,11,1673,https://telugu.newsmeter.in/andhra-pradesh/feed,National,NewsMeter Telugu,Telugu,True
+13183,11,4,1849,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/gujarati/gujarat/sitara,Entertainment,ETV Bharat Gujarati,Gujarati,True
+14167,3,2,1932,https://www.abplive.com/technology/amp-feed,Sci & Tech,ABP News,Hindi,True
+12510,5,2,1791,http://www.fmhindi.com/rss-business-news,Business,Fast Mail Hindi,Hindi,True
+9734,161,13,1524,https://bangla.asianetnews.com/rss/jio/astrology,Astrology,Asianet News Bangla,Bangla,True
+8855,58,6,1211,https://realnewskerala.com/category/news/national/feed/,National,Real News Kerala,Malayalam,True
+12354,3,11,213,https://telugu.oneindia.com/rss/feeds/telugu-technology-fb.xml,Sci & Tech,OneIndia Telugu,Telugu,True
+15164,58,8,1990,https://urdu.bharatexpress.com/postxml.php?slug=national,National,Bharat Express Urdu,Urdu,True
+14495,33,13,1958,https://thebengalichronicles.com/beauty-tips/feed,Fashion,The Bengali Chronicles,Bangla,True
+7674,58,3,53,https://www.loksatta.com/ipl-news/feed/?newsstand=JioNewsApp,National,Loksatta,Marathi,True
+6616,5,2,1177,https://www.financialexpress.com/hindi/business-news/feed/?newsstand=JioNewsApp,Business,Financial Express Hindi,Hindi,True
+9819,156,1,1179,https://news.abplive.com/education/amp-feed,Career,ABP Live,English,True
+15132,5,1,1986,https://www.topindiannews.com/business/feed,Business,Top Indian News,English,True
+2666,44,2,782,https://hindi.drivespark.com/rss/feeds/drivespark-hindi-fb.xml,Auto,Drivespark Hindi,Hindi,True
+1951,11,2,581,http://www.samacharjagat.com/rss/entertainment,Entertainment,Samachar Jagat,Hindi,True
+3478,2,7,73,https://tamil.mykhel.com/rss/sports-tamil-fb.xml,Sports,Oneindia Tamil,Tamil,True
+7271,58,7,1235,https://tamil.news18.com/feeds/jio/tamil-nadu/chennai-district/,National,News18 Tamil,Tamil,True
+13716,191,4,1811,https://gujarati.news18.com/rss-local-jamnagar.xml?hgjh,Regional,News18 Gujarati,Gujarati,True
+8154,58,2,906,http://www.hastakshep.com/category/news-2/politics/,National,Hastakshep Hindi,Hindi,True
+10666,156,6,1615,https://www.twentyfournews.com/category/job-opportunities/feed,Career,24 News,Malayalam,True
+16110,156,2,2055,https://api.livehindustan.com/feeds/rss/career/rssfeed.xml,Career,Live Hindustan,Hindi,True
+12445,4,2,1786,https://dainikbhaskarup.com/category/lifestyle/feed,Lifestyle,UP Dainik Bhaksar,Hindi,True
+11402,3,2,1669,https://hindi.thequint.com/jioampfeeds?section=science,Sci & Tech,The Quint Hindi,Hindi,True
+10007,10,1,1560,https://thesamikhsya.com/category/national/feed,Top Stories,The Samikhsya,English,True
+10095,5,2,699,https://www.poorvanchalmedia.com/business-news-hindi/rss?api_key=feed5de5a75bc0a1b,Business,Poorvanchal Media,Hindi,True
+15856,10,2,2046,https://khabargaon.com/category/politics/feed,Top Stories,KhabarGaon,Hindi,True
+13584,2,13,1877,https://fmbharat.com/be/sports-be/rss,Sports,FM Bharat Bangla,Bangla,True
+1378,4,2,451,https://hindi.boldsky.com/rss/feeds/boldsky-hindi-fb.xml,Lifestyle,Boldsky Hindi,Hindi,True
+13165,3,19,1848,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/assamese/assam/science-and-technology,Sci & Tech,ETV Bharat Assam,Assamese,True
+8857,5,6,1211,https://realnewskerala.com/category/news/business/feed/,Business,Real News Kerala,Malayalam,True
+6523,58,6,1189,http://crimevartha.in/feed,National,Crime Vartha ,Malayalam,True
+8103,44,6,1345,https://www.rashtrabhoomi.com/category/auto-news-malayalam/feed/,Auto,Rashtrabhoomi,Malayalam,True
+7677,2,2,188,https://www.jansatta.com/khel/cricket/ipl/feed/?newsstand=JioNewsApp,Sports,Jansatta,Hindi,True
+8125,3,1,1340,https://www.timesnownews.com/feeds/jio-en-technology-science.xml,Sci & Tech,Times Now,English,True
+10713,58,2,1270,https://www.bhaskarhindi.com/category/state/feeds.xml,National,Dainik Bhaskar,Hindi,True
+8007,3,1,1326,https://theprint.in/category/tech/feed/,Sci & Tech,The Print,English,True
+15119,2,1,1984,https://businessoutrank.com/category/sports/feed/,Sports,Business Outrank,English,True
+7754,3,9,1293,https://www.udayavani.com/category/diversity/tech-world/feed,Sci & Tech,Udayavani,Kannada,True
+13677,191,13,1809,https://bengali.news18.com/rss-local-alipurduar.xml?ds,Regional,News18 Bangla,Bangla,True
+9855,11,2,1160,https://www.prabhasakshi.com/rss/bollywood.xml,Entertainment,Prabhasakshi,Hindi,True
+11319,8,1,1267,https://www.dynamitenews.com/health/feed,Health,Dynamite News,English,True
+15283,2,8,2003,https://cliqindia.com/urdu/category/sports/feed/,Sports,Cliq India Urdu,Urdu,True
+12227,160,9,1768,https://tv9kannada.com/entertainment/movie-reviews/feed/subcatfeed,Movie Reviews ,TV9 Kannada,Kannada,True
+11509,44,3,1711,https://www.lokmat.com/feeds/jio/Auto.xml,Auto,Lokmat,Marathi,True
+11396,8,2,1669,https://fit.thequint.com/jioampfeeds?section=hindi,Health,The Quint Hindi,Hindi,True
+6129,2,3,1165,https://www.maharashtradesha.com/sports/feed/,Sports,Maharashtra Desha,Marathi,True
+14117,8,2,1928,https://paharipatrika.in/health/feed/,Health,Pahari Patrika,Hindi,True
+11776,11,1,1734,"https://www.sify.com/rss/content?Channel=Movies&ContentType=articles,reviews,galleries&Source=SIFY",Entertainment,Sify,English,True
+13178,3,4,1849,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/gujarati/gujarat/science-and-technology,Sci & Tech,ETV Bharat Gujarati,Gujarati,True
+12268,10,3,1771,https://www.tv9marathi.com/elections/feed/catfeed,Top Stories,TV9 Marathi,Marathi,True
+9454,192,3,1481,https://agrowon.esakal.com/api/v1/collections/agriculture-latest-news.rss,Agro,Agrowon,Marathi,True
+14107,192,10,1925,https://www.tv9punjabi.com/jiofeed/agriculture,Agro,TV9 Punjabi,Punjabi,True
+8386,160,2,236,http://hindi.filmibeat.com/rss/filmibeat-hindi-reviews-fb.xml,Movie Reviews ,FilmiBeat Hindi,Hindi,True
+13279,9,7,1857,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/tamil/tamil-nadu/international,World,ETV Bharat Tamil,Tamil,True
+12008,156,9,1759,https://kannada.newsnext.live/category/education/feed/,Career,News Next Kannada,Kannada,True
+10519,5,13,1606,https://aajkaal.in/feeds/jio/business,Business,AajKaal,Bangla,True
+14236,173,10,1936,https://punjabi.abplive.com/trending/amp-feed,Top News,ABP Sanjha,Punjabi,True
+12720,58,2,1805,https://hindi.news18.com/feeds/jio/chhattisgarh/,National,News18 Hindi,Hindi,True
+12663,58,1,1799,https://thevocalnews.com/feed/gn,National,The Vocal News,English,True
+15858,9,2,2046,https://khabargaon.com/category/international/feed,World,KhabarGaon,Hindi,True
+12768,10,13,1809,https://bengali.news18.com/feeds/jio/explained/,Top Stories,News18 Bangla,Bangla,True
+14488,11,13,1958,https://thebengalichronicles.com/entertainment/feed,Entertainment,The Bengali Chronicles,Bangla,True
+8038,5,1,1339,https://www.outlookindia.com/rss/section/18,Business,Outlook,English,True
+9139,161,7,1419,https://www.toptamilnews.com/?call_custom_simple_rss=1&csrp_posts_per_page=10&csrp_cat=42,Astrology,Top Tamil News,Tamil,True
+8856,11,6,1211,https://realnewskerala.com/category/movies/feed/,Entertainment,Real News Kerala,Malayalam,True
+11483,10,9,1710,https://newsfirstlive.com/category/%E0%B2%9F%E0%B2%BE%E0%B2%AA%E0%B3%8D-%E0%B2%A8%E0%B3%8D%E0%B2%AF%E0%B3%82%E0%B2%B8%E0%B3%8D/feed/,Top Stories,News First Live,Kannada,True
+4886,4,4,43,https://sandesh.com/rss/nari.xml,Lifestyle,Sandesh,Gujarati,True
+12299,8,1,1774,https://www.medicalbuyer.co.in/feed/,Health,Medical Buyer,English,True
+14207,161,13,1934,https://bengali.abplive.com/astro/amp-feed,Astrology,ABP Ananda,Bangla,True
+7047,2,1,9,https://www.firstpost.com/commonfeeds/v1/mfp/rss/firstcricket.xml,Sports,Firstpost,English,True
+16091,3,13,924,https://kolkata24x7.in/category/technology/feed/locfeed,Sci & Tech,Kolkata 24x7,Bangla,True
+14811,5,4,537,https://gujarati.moneycontrol.com/news/feeds/jio-feeds/cat/markets,Business,moneycontrol Gujarati,Gujarati,True
+13797,10,1,1898,https://moapi.prameyanews.com/prameya/api/rssfeed,Top Stories,Prameya News English,English,True
+9045,160,7,1413,http://cinebar.in/api/feed/?cat=reviews,Movie Reviews ,Cinebar,Tamil,True
+15568,9,1,2024,https://english.punjabkesari.com/api/v1/collections/world.rss,World,Punjab Kesari English,English,True
+14693,11,18,1965,https://www.prameya.com/entertainment/feed,Entertainment,Prameya News,Odia,True
+11828,2,1,1474,https://www.revyuh.com/news/sports/feed/,Sports,Revyuh,English,True
+14059,58,13,924,https://kolkata24x7.in/category/india/feed/locfeed,National,Kolkata 24x7,Bangla,True
+13729,191,2,1805,https://hindi.news18.com/rss-local-jhansi.xml?hgjh,Regional,News18 Hindi,Hindi,True
+10718,58,7,1620,https://a1tamilnews.com/category/Tamilnadu/feed/,National,A1 Tamil News,Tamil,True
+13615,4,2,1599,https://hamaramahanagar.net/hm-rss-feed/hm-lifestyle.php,Lifestyle,Hamara Mahanagar,Hindi,True
+12779,173,4,1811,https://gujarati.news18.com/feeds/jio/gujarat/,Top News,News18 Gujarati,Gujarati,True
+9165,9,11,1429,https://telugu.latestly.com/rss/world.xml,World,Latestly Telugu,Telugu,True
+1984,11,1,586,https://www.spotboye.com/feed/6c930f6569003d497ecf/just-binge,Entertainment,SpotboyE,English,True
+13378,180,2,1107,https://www.navjivanindia.com/jiofeeds?section=ipl,cricket,Navjivan,Hindi,True
+13492,10,3,1828,https://www.dainikgomantak.com/api/v1/collections/goa-elections.rss,Top Stories,Dainik Gomantak,Marathi,True
+3531,4,13,900,https://bengali.boldsky.com/rss/feeds/boldsky-bengali-fb.xml,Lifestyle,Boldsky Bangla,Bangla,True
+11986,3,3,1392,https://krushirang.com/category/technology/feed/,Sci & Tech,Krushirang,Marathi,True
+13158,58,13,1847,https://prod.api.etvbharat.com/jio.rss?auth_token=J5YzsHgs74NjsqwjdUyY&section=/bengali/west-bengal/bharat,National,ETV Bharat Bengali,Bangla,True
+3371,10,1,626,https://www.thenewsminute.com/api/v1/collections/feed-karnataka.rss,Top Stories,The News Minute,English,True
+11471,58,7,1708,https://tnflashnews.com/category/national-news/feed/,National,Tn Flash News,Tamil,True
+13641,156,2,1881,https://localvocalindia.com/category/latest-jobs/feed/,Career,Local Vocal India,Hindi,True
+13072,2,9,1837,https://torrentspree.com/category/sports/feed/,Sports,Torrent Spree,Kannada,True
+7286,2,6,1222,https://malayalam.news18.com/feeds/jio/sports/,Sports,News18 Malayalam,Malayalam,True
+4907,58,4,43,https://sandesh.com/rss/rajkot-city.xml,National,Sandesh,Gujarati,True
+15539,5,6,2017,https://eveningkerala.com/topics/business/feed,Business,Evening Kerala,Malayalam,True
+12140,156,7,1764,https://api.hindutamil.in/rss/jioxpress/careers,Career,The Hindu Tamil,Tamil,True

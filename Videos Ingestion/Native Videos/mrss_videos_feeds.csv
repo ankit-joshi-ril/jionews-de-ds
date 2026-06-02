@@ -1,0 +1,43 @@
+id,publication_id,pub_name,feed_url,language_name,language_id,category_id,category_name
+1,9360,TV9 Network,https://www.tv9hindi.com/jio-video-feed.xml,Hindi,2,13,news
+2,9360,TV9 Network,https://www.tv9bangla.com/jio-video-feed.xml,Bangla,7,13,news
+3,9360,TV9 Network,https://www.tv9marathi.com/jio-video-feed.xml,Marathi,4,13,news
+4,9360,TV9 Network,https://www.tv9telugu.com/jio-video-feed.xml,Telugu,5,13,news
+5,9360,TV9 Network,https://www.tv9kannada.com/jio-video-feed.xml,Kannada,9,13,news
+6,9360,TV9 Network,https://www.tv9gujarati.com/jio-video-feed.xml,Gujarati,3,13,news
+7,9360,TV9 Network,https://www.news9live.com/jiofeed/videos/,English,1,13,news
+8,7778,IBC24,https://www.ibc24.in/jio_sample_mrss_feed.xml,Hindi,2,13,news
+9,7779,IANS,https://ianslive.in/jiofeed-videos.rss,Hindi,2,13,news
+10,7780,TIL - NBT,https://nbtfeed.indiatimes.com/langapi/jio/videos,Hindi,2,13,news
+11,7780,TIL - MT,https://mtpwafeeds.indiatimes.com/langapi/jio/videos,Marathi,4,13,news
+12,7780,TIL - VK,https://vkfeed.indiatimes.com/langapi/jio/videos,Kannada,9,13,news
+13,7780,TIL - Telugu Samayam,https://tlgfeed.samayam.com/langapi/jio/videos,Telugu,5,13,news
+14,7780,TIL - Tamil,https://tmlfeed.samayam.com/langapi/jio/videos,Tamil,6,13,news
+15,7780,TIL - Malayalam Samayam,https://mlyfeed.samayam.com/langapi/jio/videos,Malayalam,10,13,news
+16,7780,TIL - IAG,https://iagfeed.indiatimes.com/langapi/jio/videos,Gujarati,3,13,news
+17,7780,TIL - ET,https://nbtfeed.economictimes.com/langapi/jio/videos,Hindi,2,13,news
+18,7777,CNBC-TV18,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCmRbHAgG2k2vDUvb3xsEunQ,English,1,13,news
+19,7777,CNN-News18,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCef1-8eOpJgud7szVPlZQAQ,English,1,13,news
+20,7777,FirstPost,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCz8QaiQxApLq8sLNcszYyJw,English,1,13,news
+21,7777,News18 Bangla,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCbf0XHULBkTfv2hBjaaDw9Q,Bangla,7,13,news
+22,7777,News18 Bihar,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC531MlZA5LUbeGwEN_zcppw,Hindi,2,13,news
+23,7777,News18 Gujarati,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCqfX_f4rBbPhq_KESE4saCA,Gujarati,3,13,news
+24,7777,News18 Hindi,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCn1P85eKDEXS2iwbcasBm-g,Hindi,2,13,news
+25,7777,News18 Kannada,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCa-vioGhe2btBcZneaPonKA,Kannada,9,13,news
+26,7777,News18 Kerala,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC-mMi78WJST4N5o8_i1FoXw,Malayalam,10,13,news
+27,7777,News18 Lokmat,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCrcpw88HvKJ0skdsHniCJtQ,Marathi,4,13,news
+28,7777,News18 Odia,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCUK49UvmYWYLiB7_bZFuFZQ,Odia,11,13,news
+29,7777,News18 Punjabi,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC-crZTQNRzZgzyighTKF0nQ,Punjabi,12,13,news
+30,7777,News18 Tamil,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCat88i6_rELqI_prwvjspRA,Tamil,6,13,news
+31,7777,News18 Telugu,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC-PPlFHLfi4wcFOe6DrReCQ,Telugu,5,13,news
+32,7777,News18 Urdu,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC9IQhNgS43lmUdU-KdGyb0A,Urdu,8,13,news
+33,7777,Overdrive,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC_5Xhfmz-KE3VyVuhwJ57hw,English,1,13,news
+34,7777,Showsha,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCLnuTrdp3MBzo9ZPig5szbQ,English,1,13,news
+35,7777,Storyboard 18,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCgx_MrFNWS6rbwaPKKsdXdA,English,1,13,news
+44,7780,TOI,https://timesofindia.indiatimes.com/mediarssjio.cms?parentHierarchy=3812908,English,1,13,news
+45,7780,TOI,https://timesofindia.indiatimes.com/mediarssshortjio.cms?parentHierarchy=1081479906,English,1,3,entertainment
+46,7780,ET,https://economictimes.indiatimes.com/feed_jiovideo.cms,English,1,13,news
+47,7781,TimesXP,https://xpfeed.timesxp.com/langapi/jio/videos,English,1,17,Business
+48,7781,Speaking Tree,https://nbtfeed.speakingtree.in/langapi/jio/videos,Hindi,2,17,lifestyle
+49,7782,IANS,https://cms.iansnews.in/api/elastic/jiovideo/list/?language=English,English,1,13,news
+50,7782,IANS,https://cms.iansnews.in/api/elastic/jiovideo/list/?language=Hindi,Hindi,2,13,news

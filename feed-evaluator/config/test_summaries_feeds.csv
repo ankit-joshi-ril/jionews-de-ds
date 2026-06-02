@@ -1,0 +1,5 @@
+id,category_id,language_id,publication_id,feed_url,category_name,pub_name,language_name
+34,173,18,1609,https://odia.news18.com/commonfeeds/v1/odi/feeds/short_news/news,Top News,News18 Odia,Odia
+37,173,11,1236,https://telugu.news18.com/commonfeeds/v1/tel/feeds/short_news/news,Top News,News18 Telugu,Telugu
+5,173,7,1764,https://api.hindutamil.in/rss/jioxpress/short_news,Top News,The Hindu Tamil,Tamil
+14,173,4,1769,https://tv9gujarati.com/jio-rss-feed,Top News,TV9 Gujarati,Gujarati

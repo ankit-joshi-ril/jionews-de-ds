@@ -1,0 +1,5 @@
+```
+RawWebStoriesIngestion
+        ↓
+RawWebStoriesIngestion_PushToMongoDB
+```

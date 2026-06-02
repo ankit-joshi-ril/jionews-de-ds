@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JioNews Data & Analytics Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect width="32" height="32" rx="8" fill="url(#logo-grad)"/>
+                        <path d="M8 11h16M8 16h12M8 21h14" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="24" cy="24" r="6" fill="#10B981"/>
+                        <path d="M22 24l1.5 1.5 3-3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0" y1="0" x2="32" y2="32">
+                                <stop stop-color="#059669"/>
+                                <stop offset="1" stop-color="#0D9488"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="logo-text">JioNews<br><small>Data & Analytics</small></span>
+                </div>
+            </div>
+
+            <div class="sidebar-actions">
+                <button class="btn-new-chat" onclick="resetChat()">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                        <path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    New Chat
+                </button>
+            </div>
+
+            <div class="sidebar-content">
+                <!-- Onboarding Sidebar -->
+                <div class="sidebar-section active" id="sidebarOnboarding">
+                    <div class="stats-grid" id="feedStats">
+                        <div class="stat-card">
+                            <div class="stat-value" id="statHeadlines">--</div>
+                            <div class="stat-label">Headline Feeds</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statVideos">--</div>
+                            <div class="stat-label">Video Feeds</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statSummaries">--</div>
+                            <div class="stat-label">Summary Feeds</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statTotal">--</div>
+                            <div class="stat-label">Total Feeds</div>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>Supported Feed Types</h4>
+                        <ul>
+                            <li><span class="badge badge-green">Headlines</span> RSS / JSON</li>
+                            <li><span class="badge badge-teal">Videos</span> MRSS / RSS</li>
+                            <li><span class="badge badge-blue">Summaries</span> RSS / JSON</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h4>Languages</h4>
+                        <p class="info-text">English, Hindi, Marathi, Gujarati, Malayalam, Tamil, Urdu, Kannada, Punjabi, Telugu, Bangla, Odia, Assamese</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Validation Checks</h4>
+                        <ul>
+                            <li>Feed accessibility & format</li>
+                            <li>Entry metadata completeness</li>
+                            <li>Thumbnail extraction (12-step)</li>
+                            <li>Content freshness</li>
+                            <li>MP4 URL validation (videos)</li>
+                            <li>Summary hygiene checks</li>
+                            <li>Duplicate detection</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Analytics Sidebar -->
+                <div class="sidebar-section" id="sidebarAnalytics">
+                    <div class="info-card">
+                        <h4>Database</h4>
+                        <p class="info-text" id="dbStatus">Connecting to MongoDB...</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Key Collections</h4>
+                        <ul>
+                            <li><span class="badge badge-green">raw_summaries</span></li>
+                            <li><span class="badge badge-teal">summaries_test</span></li>
+                            <li><span class="badge badge-blue">raw_headlines</span></li>
+                            <li><span class="badge badge-purple">raw_videos</span></li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h4>Common Fields</h4>
+                        <ul>
+                            <li>sourceId</li>
+                            <li>sourceLanguageName</li>
+                            <li>pub_name / publication_id</li>
+                            <li>createdAt</li>
+                            <li>title, url</li>
+                            <li>isHygienePassed</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h4>Allowed Operations</h4>
+                        <ul>
+                            <li>find (read documents)</li>
+                            <li>aggregate (pipeline)</li>
+                            <li>count_documents</li>
+                            <li>distinct (unique values)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="status-indicator" id="statusIndicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Checking...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Area -->
+        <main class="main-area">
+
+            <!-- Top Navigation with Module Tabs -->
+            <nav class="top-nav">
+                <button class="btn-sidebar-toggle" onclick="toggleSidebar()">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <span class="nav-title">Dashboard</span>
+                <div class="module-tabs">
+                    <button class="module-tab active" onclick="switchModule('onboarding')" id="tabOnboarding">
+                        Publisher Onboarding
+                    </button>
+                    <button class="module-tab" onclick="switchModule('analytics')" id="tabAnalytics">
+                        Smart Analytics
+                    </button>
+                </div>
+                <div class="nav-spacer"></div>
+                <span class="header-badge">Powered by Claude</span>
+            </nav>
+
+            <!-- Onboarding Module -->
+            <div class="module-container active" id="moduleOnboarding">
+                <div class="messages-container" id="messagesOnboarding">
+                    <div class="welcome-screen" id="welcomeOnboarding">
+                        <div class="welcome-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="url(#w-grad1)"/>
+                                <path d="M14 18h20M14 24h16M14 30h18" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="36" cy="36" r="8" fill="#10B981"/>
+                                <path d="M33 36l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                    <linearGradient id="w-grad1" x1="0" y1="0" x2="48" y2="48">
+                                        <stop stop-color="#059669"/>
+                                        <stop offset="1" stop-color="#0D9488"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h2>Publisher Onboarding</h2>
+                        <p>Validate, evaluate, and onboard publisher RSS/JSON/MRSS feeds into JioNews pipelines.</p>
+
+                        <div class="quick-actions">
+                            <button class="quick-action-card" onclick="sendQuickAction('I want to validate a headline RSS feed for onboarding.', 'onboarding')">
+                                <div class="qa-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <rect x="3" y="3" width="18" height="18" rx="3" stroke="#059669" stroke-width="2"/>
+                                        <path d="M7 8h10M7 12h8M7 16h6" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <div class="qa-text">
+                                    <strong>Validate Headlines</strong>
+                                    <span>Check RSS/JSON feed for articles</span>
+                                </div>
+                            </button>
+                            <button class="quick-action-card" onclick="sendQuickAction('I want to validate a native video MRSS feed.', 'onboarding')">
+                                <div class="qa-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <rect x="3" y="5" width="18" height="14" rx="3" stroke="#0D9488" stroke-width="2"/>
+                                        <path d="M10 9l5 3-5 3V9z" fill="#0D9488"/>
+                                    </svg>
+                                </div>
+                                <div class="qa-text">
+                                    <strong>Validate Videos</strong>
+                                    <span>Check MRSS with MP4 validation</span>
+                                </div>
+                            </button>
+                            <button class="quick-action-card" onclick="sendQuickAction('I want to validate a summaries feed.', 'onboarding')">
+                                <div class="qa-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <rect x="3" y="3" width="18" height="18" rx="3" stroke="#3B82F6" stroke-width="2"/>
+                                        <path d="M7 8h10M7 12h10M7 16h10" stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <div class="qa-text">
+                                    <strong>Validate Summaries</strong>
+                                    <span>Check feed with hygiene scoring</span>
+                                </div>
+                            </button>
+                            <button class="quick-action-card" onclick="sendQuickAction('Show me all existing feeds and their stats.', 'onboarding')">
+                                <div class="qa-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <path d="M3 12h4l3-9 4 18 3-9h4" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <div class="qa-text">
+                                    <strong>Feed Analytics</strong>
+                                    <span>Query existing feed configs</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Panel for Onboarding -->
+                <div class="data-panel" id="dataPanelOnboarding">
+                    <div class="data-panel-header">
+                        <h3 id="dataPanelTitle">Feed Data</h3>
+                        <div class="data-panel-actions">
+                            <button class="btn-download" onclick="downloadData('csv')">CSV</button>
+                            <button class="btn-download" onclick="downloadData('excel')">Excel</button>
+                            <button class="btn-download" onclick="downloadData('json')">JSON</button>
+                            <button class="btn-close-panel" onclick="closeDataPanel()">&times;</button>
+                        </div>
+                    </div>
+                    <div class="data-panel-body" id="dataPanelBody">
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <div class="input-wrapper">
+                        <textarea
+                            id="inputOnboarding"
+                            placeholder="Paste a feed URL or ask about publisher feeds..."
+                            rows="1"
+                            onkeydown="handleKeyDown(event, 'onboarding')"
+                            oninput="autoResize(this)"
+                        ></textarea>
+                        <button class="btn-send" id="sendBtnOnboarding" onclick="sendMessage('onboarding')">
+                            <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                                <path d="M3 10l14-7-4 7 4 7L3 10z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="input-hint">Press Enter to send, Shift+Enter for new line</p>
+                </div>
+            </div>
+
+            <!-- Analytics Module -->
+            <div class="module-container" id="moduleAnalytics">
+                <div class="messages-container" id="messagesAnalytics">
+                    <div class="welcome-screen" id="welcomeAnalytics">
+                        <div class="welcome-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="12" fill="url(#w-grad2)"/>
+                                <path d="M14 34V22M22 34V14M30 34V26M38 34V18" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                <defs>
+                                    <linearGradient id="w-grad2" x1="0" y1="0" x2="48" y2="48">
+                                        <stop stop-color="#0D9488"/>
+                                        <stop offset="1" stop-color="#059669"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h2>Smart Analytics Engine</h2>
+                        <p>Query and analyze JioNews MongoDB data using natural language. Ask questions and get results as tables.</p>
+
+                        <div class="quick-actions">
+                            <button class="quick-action-card" onclick="sendQuickAction('What collections are available in the database?', 'analytics')">
+                                <div class="qa-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="9" stroke="#0D9488" stroke-width="2"/>
+                                        <path d="M12 8v4M12 16h.01" stroke="#0D9488" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <div class="qa-text">
+                                    <strong>Explore Collections</strong>
+                                    <span>See available data sources</span>
+                                </div>
+                            </button>
+                            <button class="quick-action-card" onclick="sendQuickAction('How many documents are in the raw_headlines collection? Show me a breakdown by language.', 'analytics')">
+                                <div class="qa-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <path d="M3 12h4l3-9 4 18 3-9h4" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <div class="qa-text">
+                                    <strong>Headlines Analytics</strong>
+                                    <span>Count and breakdown by language</span>
+                                </div>
+                            </button>
+                            <button class="quick-action-card" onclick="sendQuickAction('Show me the latest 10 summaries that failed hygiene checks.', 'analytics')">
+                                <div class="qa-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 9v4M12 17h.01" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+                                        <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke="#EF4444" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="qa-text">
+                                    <strong>Failed Hygiene</strong>
+                                    <span>Find content that failed checks</span>
+                                </div>
+                            </button>
+                            <button class="quick-action-card" onclick="sendQuickAction('Compare summaries test results across different models.', 'analytics')">
+                                <div class="qa-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <rect x="3" y="3" width="7" height="7" rx="1" stroke="#8B5CF6" stroke-width="2"/>
+                                        <rect x="14" y="3" width="7" height="7" rx="1" stroke="#8B5CF6" stroke-width="2"/>
+                                        <rect x="3" y="14" width="7" height="7" rx="1" stroke="#8B5CF6" stroke-width="2"/>
+                                        <rect x="14" y="14" width="7" height="7" rx="1" stroke="#8B5CF6" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="qa-text">
+                                    <strong>Model Comparison</strong>
+                                    <span>Compare test results across models</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <div class="input-wrapper">
+                        <textarea
+                            id="inputAnalytics"
+                            placeholder="Ask a question about JioNews data..."
+                            rows="1"
+                            onkeydown="handleKeyDown(event, 'analytics')"
+                            oninput="autoResize(this)"
+                        ></textarea>
+                        <button class="btn-send" id="sendBtnAnalytics" onclick="sendMessage('analytics')">
+                            <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+                                <path d="M3 10l14-7-4 7 4 7L3 10z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="input-hint">Press Enter to send, Shift+Enter for new line</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

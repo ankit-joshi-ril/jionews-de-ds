@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-surface text-text-primary font-sans antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-text-muted;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-surface-raised border border-surface-border rounded-xl;
+  }
+
+  .card-hover {
+    @apply card transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-black/20 hover:border-surface-hover;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-todo {
+    @apply badge bg-text-muted/20 text-text-secondary;
+  }
+
+  .badge-in-progress {
+    @apply badge bg-accent-de/20 text-accent-de;
+  }
+
+  .badge-dev-complete {
+    @apply badge bg-accent-backend/20 text-accent-backend;
+  }
+
+  .badge-ready-qa {
+    @apply badge bg-accent-qa/20 text-accent-qa;
+  }
+
+  .badge-done {
+    @apply badge bg-emerald-500/20 text-emerald-400;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm
+           bg-accent-de text-surface transition-all duration-200
+           hover:brightness-110 active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-3 py-2 rounded-lg font-medium text-sm
+           text-text-secondary transition-all duration-200
+           hover:bg-surface-hover hover:text-text-primary;
+  }
+
+  .input-field {
+    @apply w-full px-3 py-2 rounded-lg bg-surface border border-surface-border
+           text-text-primary placeholder:text-text-muted text-sm
+           focus:outline-none focus:ring-1 focus:ring-accent-de/50 focus:border-accent-de/50
+           transition-all duration-200;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-de via-accent-backend to-accent-product;
+  }
+}

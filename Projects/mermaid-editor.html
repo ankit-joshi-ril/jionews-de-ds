@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mermaid Editor</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0f1117;
+    color: #e2e8f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* ── Top bar ── */
+  header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 14px;
+    background: #161b27;
+    border-bottom: 1px solid #2d3748;
+    flex-shrink: 0;
+  }
+  header h1 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #a78bfa;
+    letter-spacing: .5px;
+  }
+
+  /* ── Tab bar ── */
+  #tab-bar {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 6px 10px 0;
+    background: #161b27;
+    border-bottom: 1px solid #2d3748;
+    overflow-x: auto;
+    flex-shrink: 0;
+  }
+  #tab-bar::-webkit-scrollbar { height: 3px; }
+  #tab-bar::-webkit-scrollbar-thumb { background: #4a5568; border-radius: 3px; }
+
+  .tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px 6px;
+    background: #1e2535;
+    border: 1px solid #2d3748;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+    font-size: 13px;
+    color: #94a3b8;
+    white-space: nowrap;
+    transition: background .15s, color .15s;
+    user-select: none;
+  }
+  .tab:hover { background: #252e42; color: #cbd5e1; }
+  .tab.active {
+    background: #0f1117;
+    color: #e2e8f0;
+    border-color: #4a5568;
+  }
+  .tab-title {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+  }
+  .tab.active .tab-title { cursor: text; }
+  .tab-close {
+    width: 16px; height: 16px;
+    border-radius: 3px;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+    transition: background .1s, color .1s;
+  }
+  .tab-close:hover { background: #ef4444; color: #fff; }
+
+  #add-tab {
+    padding: 4px 10px;
+    background: transparent;
+    border: 1px dashed #334155;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    color: #64748b;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    transition: color .15s, border-color .15s;
+  }
+  #add-tab:hover { color: #a78bfa; border-color: #a78bfa; }
+
+  /* ── Main split pane ── */
+  #workspace {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  #editor-pane {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    min-width: 200px;
+    border-right: 1px solid #2d3748;
+    flex-shrink: 0;
+  }
+
+  .pane-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 12px;
+    background: #161b27;
+    border-bottom: 1px solid #2d3748;
+    font-size: 11px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    flex-shrink: 0;
+  }
+
+  #editor {
+    flex: 1;
+    resize: none;
+    border: none;
+    outline: none;
+    background: #0f1117;
+    color: #c9d1d9;
+    font-family: "Cascadia Code", "Fira Code", "JetBrains Mono", monospace;
+    font-size: 13.5px;
+    line-height: 1.65;
+    padding: 14px 16px;
+    tab-size: 2;
+    white-space: pre;
+    overflow: auto;
+  }
+
+  /* ── Resize handle ── */
+  #resizer {
+    width: 5px;
+    cursor: col-resize;
+    background: #2d3748;
+    flex-shrink: 0;
+    transition: background .15s;
+  }
+  #resizer:hover, #resizer.dragging { background: #a78bfa; }
+
+  /* ── Preview pane ── */
+  #preview-pane {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  #preview-pane .pane-header {
+    justify-content: space-between;
+  }
+
+  #preview-actions { display: flex; gap: 6px; }
+
+  .action-btn {
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid #334155;
+    background: #1e2535;
+    color: #94a3b8;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .action-btn:hover { border-color: #a78bfa; color: #a78bfa; background: #1a1f2e; }
+
+  #preview-scroll {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    background: #0f1117;
+    cursor: grab;
+    user-select: none;
+  }
+  #preview-scroll.panning { cursor: grabbing; }
+
+  #preview-viewport {
+    position: absolute;
+    transform-origin: 0 0;
+    /* tx / ty / scale set by JS */
+  }
+
+  #preview-inner {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 28px 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,.5);
+    display: inline-block;
+  }
+
+  #preview-inner svg { display: block; max-width: none; height: auto; }
+
+  /* ── Zoom controls ── */
+  #zoom-controls {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .zoom-btn {
+    width: 22px; height: 22px;
+    border-radius: 4px;
+    border: 1px solid #334155;
+    background: #1e2535;
+    color: #94a3b8;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all .15s;
+    flex-shrink: 0;
+  }
+  .zoom-btn:hover { border-color: #a78bfa; color: #a78bfa; }
+  #zoom-label {
+    font-size: 11px;
+    color: #64748b;
+    min-width: 38px;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  #error-box {
+    display: none;
+    margin: 16px;
+    padding: 12px 14px;
+    background: #1e1215;
+    border: 1px solid #7f1d1d;
+    border-radius: 6px;
+    color: #fca5a5;
+    font-size: 12.5px;
+    font-family: monospace;
+    white-space: pre-wrap;
+  }
+
+  /* ── Status bar ── */
+  #status-bar {
+    padding: 3px 14px;
+    background: #0a0d14;
+    border-top: 1px solid #1e2535;
+    font-size: 11px;
+    color: #475569;
+    display: flex;
+    gap: 16px;
+    flex-shrink: 0;
+  }
+  #status-bar span { color: #64748b; }
+  #status-bar span em { color: #94a3b8; font-style: normal; }
+
+  /* ── Dark preview toggle ── */
+  #preview-inner.dark-bg {
+    background: #1e2535;
+  }
+  #preview-inner.dark-bg svg text,
+  #preview-inner.dark-bg svg .label { fill: #e2e8f0 !important; }
+
+  /* ── Paste toast ── */
+  #paste-toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%) translateY(12px);
+    background: #a78bfa;
+    color: #0f1117;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s, transform .2s;
+    z-index: 999;
+    white-space: nowrap;
+  }
+  #paste-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  /* ── Drop zone overlay ── */
+  #drop-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(167,139,250,.12);
+    border: 3px dashed #a78bfa;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #a78bfa;
+    font-weight: 600;
+    pointer-events: none;
+  }
+  #drop-overlay.visible { display: flex; }
+</style>
+</head>
+<body>
+
+<div id="paste-toast"></div>
+<div id="drop-overlay">Drop .md or .mmd file to open</div>
+
+<header>
+  <h1>&#9670; Mermaid Editor</h1>
+</header>
+
+<div id="tab-bar">
+  <button id="add-tab" title="New tab (or paste Mermaid code anywhere)">+</button>
+</div>
+
+<div id="workspace">
+  <div id="editor-pane">
+    <div class="pane-header">
+      <span>Source</span>
+      <span id="char-count">0 chars</span>
+    </div>
+    <textarea id="editor" spellcheck="false" placeholder="Type your Mermaid diagram here…"></textarea>
+  </div>
+
+  <div id="resizer"></div>
+
+  <div id="preview-pane">
+    <div class="pane-header">
+      <div id="zoom-controls">
+        <button class="zoom-btn" id="btn-zoom-out" title="Zoom out (scroll wheel)">−</button>
+        <span id="zoom-label">100%</span>
+        <button class="zoom-btn" id="btn-zoom-in" title="Zoom in (scroll wheel)">+</button>
+        <button class="action-btn" id="btn-fit" title="Fit diagram to view">Fit</button>
+        <button class="action-btn" id="btn-zoom-reset" title="Reset to 100%">1:1</button>
+      </div>
+      <div id="preview-actions">
+        <button class="action-btn" id="btn-bg">Dark bg</button>
+        <button class="action-btn" id="btn-copy-src">Copy source</button>
+        <button class="action-btn" id="btn-copy-svg">Copy SVG</button>
+        <button class="action-btn" id="btn-download">Download SVG</button>
+      </div>
+    </div>
+    <div id="error-box"></div>
+    <div id="preview-scroll">
+      <div id="preview-viewport">
+        <div id="preview-inner"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="status-bar">
+  <span>Tab <em id="sb-tab">1</em> of <em id="sb-total">1</em></span>
+  <span>Renderer: <em>Mermaid 11</em></span>
+  <span id="sb-status">Ready</span>
+</div>
+
+<script>
+/* ── Diagram type → title ── */
+const DIAGRAM_TITLES = [
+  [/^flowchart|^graph\s/i,       "Flowchart"],
+  [/^sequenceDiagram/i,          "Sequence"],
+  [/^classDiagram/i,             "Class"],
+  [/^erDiagram/i,                "ER Diagram"],
+  [/^gantt/i,                    "Gantt"],
+  [/^pie/i,                      "Pie Chart"],
+  [/^stateDiagram/i,             "State"],
+  [/^journey/i,                  "Journey"],
+  [/^gitGraph/i,                 "Git Graph"],
+  [/^mindmap/i,                  "Mind Map"],
+  [/^timeline/i,                 "Timeline"],
+  [/^xychart/i,                  "XY Chart"],
+  [/^quadrantChart/i,            "Quadrant"],
+  [/^requirementDiagram/i,       "Requirements"],
+  [/^C4Context|^C4Container/i,   "C4"],
+  [/^block-beta/i,               "Block"],
+];
+
+function detectTitle(code, fallback) {
+  const first = code.trimStart().split("\n")[0].trim();
+  for (const [re, label] of DIAGRAM_TITLES) {
+    if (re.test(first)) return label;
+  }
+  return fallback;
+}
+
+/* ── Toast ── */
+let toastTimer;
+function showToast(msg) {
+  const el = document.getElementById("paste-toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove("show"), 2200);
+}
+
+/* ── State ── */
+const DEFAULTS = [
+  {
+    title: "Flowchart",
+    code: `flowchart TD
+    A([Start]) --> B{Is it raining?}
+    B -- Yes --> C[Take umbrella]
+    B -- No  --> D[Enjoy sunshine]
+    C --> E([End])
+    D --> E`
+  },
+  {
+    title: "Sequence",
+    code: `sequenceDiagram
+    participant U as User
+    participant S as Server
+    participant D as Database
+
+    U->>S: POST /login
+    S->>D: SELECT user WHERE email=?
+    D-->>S: {id, hash}
+    S-->>U: 200 OK + JWT`
+  }
+];
+
+let tabs = [];
+let activeId = null;
+let renderTimer = null;
+let darkBg = false;
+
+/* ── Mermaid init ── */
+mermaid.initialize({
+  startOnLoad: false,
+  theme: "default",
+  securityLevel: "loose",
+  fontFamily: "inherit"
+});
+
+/* ── Tab management ── */
+function createTab(title = "Diagram", code = "flowchart LR\n    A --> B") {
+  const id = Date.now() + Math.random();
+  tabs.push({ id, title, code });
+  return id;
+}
+
+function renderTabBar() {
+  const bar = document.getElementById("tab-bar");
+  // remove existing tabs (keep the + button)
+  bar.querySelectorAll(".tab").forEach(el => el.remove());
+  const addBtn = document.getElementById("add-tab");
+
+  tabs.forEach(tab => {
+    const el = document.createElement("div");
+    el.className = "tab" + (tab.id === activeId ? " active" : "");
+    el.dataset.id = tab.id;
+
+    const title = document.createElement("input");
+    title.className = "tab-title";
+    title.value = tab.title;
+    title.readOnly = tab.id !== activeId;
+    title.title = tab.title;
+    title.addEventListener("change", () => {
+      tab.title = title.value || "Untitled";
+      updateStatusBar();
+    });
+    title.addEventListener("keydown", e => { if (e.key === "Enter") title.blur(); });
+
+    const close = document.createElement("button");
+    close.className = "tab-close";
+    close.innerHTML = "×";
+    close.title = "Close tab";
+    close.addEventListener("click", e => { e.stopPropagation(); removeTab(tab.id); });
+
+    el.appendChild(title);
+    el.appendChild(close);
+    el.addEventListener("click", () => switchTab(tab.id));
+    bar.insertBefore(el, addBtn);
+  });
+}
+
+function switchTab(id) {
+  // save current editor content
+  const cur = tabs.find(t => t.id === activeId);
+  if (cur) cur.code = document.getElementById("editor").value;
+
+  activeId = id;
+  const tab = tabs.find(t => t.id === id);
+  document.getElementById("editor").value = tab.code;
+  renderTabBar();
+  scheduleRender();
+  updateStatusBar();
+}
+
+function removeTab(id) {
+  if (tabs.length === 1) return; // keep at least one
+  const idx = tabs.findIndex(t => t.id === id);
+  tabs.splice(idx, 1);
+  if (activeId === id) {
+    activeId = tabs[Math.min(idx, tabs.length - 1)].id;
+    document.getElementById("editor").value = tabs.find(t => t.id === activeId).code;
+  }
+  renderTabBar();
+  scheduleRender();
+  updateStatusBar();
+}
+
+function addTab() {
+  // save current
+  const cur = tabs.find(t => t.id === activeId);
+  if (cur) cur.code = document.getElementById("editor").value;
+
+  const id = createTab("Diagram " + (tabs.length + 1), "flowchart LR\n    A --> B");
+  activeId = id;
+  document.getElementById("editor").value = tabs.find(t => t.id === id).code;
+  renderTabBar();
+  scheduleRender();
+  updateStatusBar();
+  document.getElementById("editor").focus();
+}
+
+/* open pasted/dropped code in a new tab (or replace empty current tab) */
+function openCode(code, sourceHint) {
+  const trimmed = code.trim();
+  if (!trimmed) return;
+  const title = detectTitle(trimmed, sourceHint || "Pasted");
+
+  const cur = tabs.find(t => t.id === activeId);
+  const curCode = (cur?.code || "").trim();
+
+  if (cur && (!curCode || curCode === "flowchart LR\n    A --> B")) {
+    // replace blank/default tab in place
+    cur.title = title;
+    cur.code = trimmed;
+    document.getElementById("editor").value = trimmed;
+    renderTabBar();
+    scheduleRender();
+    updateStatusBar();
+    showToast("Opened: " + title);
+    return;
+  }
+
+  // save current and open a fresh tab
+  if (cur) cur.code = document.getElementById("editor").value;
+  const id = createTab(title, trimmed);
+  activeId = id;
+  document.getElementById("editor").value = trimmed;
+  renderTabBar();
+  scheduleRender();
+  updateStatusBar();
+  showToast("New tab: " + title);
+}
+
+/* ── Rendering ── */
+let renderId = 0;
+
+async function renderDiagram() {
+  const code = document.getElementById("editor").value.trim();
+  const container = document.getElementById("preview-inner");
+  const errorBox = document.getElementById("error-box");
+  const sbStatus = document.getElementById("sb-status");
+
+  // save to active tab
+  const cur = tabs.find(t => t.id === activeId);
+  if (cur) cur.code = document.getElementById("editor").value;
+
+  updateCharCount();
+
+  if (!code) {
+    container.innerHTML = '<span style="color:#94a3b8;font-size:13px">Start typing a diagram…</span>';
+    errorBox.style.display = "none";
+    sbStatus.textContent = "Empty";
+    return;
+  }
+
+  const myId = ++renderId;
+  sbStatus.textContent = "Rendering…";
+
+  try {
+    const graphId = "mermaid-" + myId;
+    const { svg } = await mermaid.render(graphId, code);
+    if (myId !== renderId) return; // stale
+    container.innerHTML = svg;
+    errorBox.style.display = "none";
+    sbStatus.textContent = "OK";
+    // let browser paint the new SVG before measuring
+    requestAnimationFrame(() => { if (typeof fitToView === "function") fitToView(); });
+  } catch (err) {
+    if (myId !== renderId) return;
+    // mermaid may have left a broken element in the DOM; clean it up
+    document.getElementById("mermaid-" + myId)?.remove();
+    errorBox.textContent = err.message || String(err);
+    errorBox.style.display = "block";
+    sbStatus.textContent = "Parse error";
+  }
+}
+
+function scheduleRender() {
+  clearTimeout(renderTimer);
+  renderTimer = setTimeout(renderDiagram, 300);
+}
+
+/* ── Helpers ── */
+function updateCharCount() {
+  const len = document.getElementById("editor").value.length;
+  document.getElementById("char-count").textContent = len + " chars";
+}
+
+function updateStatusBar() {
+  const idx = tabs.findIndex(t => t.id === activeId);
+  document.getElementById("sb-tab").textContent = idx + 1;
+  document.getElementById("sb-total").textContent = tabs.length;
+}
+
+/* ── Editor events ── */
+document.getElementById("editor").addEventListener("input", scheduleRender);
+
+document.getElementById("editor").addEventListener("keydown", e => {
+  if (e.key === "Tab") {
+    e.preventDefault();
+    const el = e.target;
+    const s = el.selectionStart, end = el.selectionEnd;
+    el.value = el.value.substring(0, s) + "  " + el.value.substring(end);
+    el.selectionStart = el.selectionEnd = s + 2;
+    scheduleRender();
+  }
+});
+
+document.getElementById("add-tab").addEventListener("click", addTab);
+
+/* ── Global paste → new tab ── */
+document.addEventListener("paste", e => {
+  if (document.activeElement === document.getElementById("editor")) return;
+  const text = e.clipboardData.getData("text");
+  if (text.trim()) { e.preventDefault(); openCode(text); }
+});
+
+/* ── Drag-and-drop .mmd / .md files ── */
+const overlay = document.getElementById("drop-overlay");
+let dragCounter = 0;
+
+document.addEventListener("dragenter", e => {
+  if ([...e.dataTransfer.items].some(i => i.kind === "file")) {
+    dragCounter++;
+    overlay.classList.add("visible");
+  }
+});
+document.addEventListener("dragleave", () => {
+  if (--dragCounter <= 0) { dragCounter = 0; overlay.classList.remove("visible"); }
+});
+document.addEventListener("dragover", e => e.preventDefault());
+document.addEventListener("drop", e => {
+  e.preventDefault();
+  dragCounter = 0;
+  overlay.classList.remove("visible");
+  const file = e.dataTransfer.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => openCode(ev.target.result, file.name.replace(/\.\w+$/, ""));
+  reader.readAsText(file);
+});
+
+/* ── Action buttons ── */
+document.getElementById("btn-bg").addEventListener("click", () => {
+  darkBg = !darkBg;
+  document.getElementById("preview-inner").classList.toggle("dark-bg", darkBg);
+  document.getElementById("btn-bg").textContent = darkBg ? "Light bg" : "Dark bg";
+});
+
+document.getElementById("btn-copy-src").addEventListener("click", () => {
+  const code = document.getElementById("editor").value;
+  navigator.clipboard.writeText(code).then(() => {
+    const btn = document.getElementById("btn-copy-src");
+    btn.textContent = "Copied!";
+    setTimeout(() => btn.textContent = "Copy source", 1500);
+  });
+});
+
+document.getElementById("btn-copy-svg").addEventListener("click", () => {
+  const svg = document.querySelector("#preview-inner svg");
+  if (!svg) return;
+  navigator.clipboard.writeText(svg.outerHTML).then(() => {
+    const btn = document.getElementById("btn-copy-svg");
+    btn.textContent = "Copied!";
+    setTimeout(() => btn.textContent = "Copy SVG", 1500);
+  });
+});
+
+document.getElementById("btn-download").addEventListener("click", () => {
+  const svg = document.querySelector("#preview-inner svg");
+  if (!svg) return;
+  const blob = new Blob([svg.outerHTML], { type: "image/svg+xml" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const tab = tabs.find(t => t.id === activeId);
+  a.href = url;
+  a.download = (tab?.title || "diagram").replace(/\s+/g, "-").toLowerCase() + ".svg";
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+/* ── Zoom / Pan ── */
+(function initZoomPan() {
+  const scroll = document.getElementById("preview-scroll");
+  const viewport = document.getElementById("preview-viewport");
+  const inner = document.getElementById("preview-inner");
+  const label = document.getElementById("zoom-label");
+  let z = 1, tx = 0, ty = 0;
+
+  function applyZoom() {
+    viewport.style.transform = `translate(${tx}px,${ty}px) scale(${z})`;
+    label.textContent = Math.round(z * 100) + "%";
+  }
+
+  window.fitToView = function() {
+    const vw = scroll.clientWidth, vh = scroll.clientHeight;
+    const iw = inner.offsetWidth || 400, ih = inner.offsetHeight || 300;
+    const pad = 48;
+    z = Math.min((vw - pad * 2) / iw, (vh - pad * 2) / ih, 2);
+    z = Math.max(z, 0.05);
+    tx = (vw - iw * z) / 2;
+    ty = (vh - ih * z) / 2;
+    applyZoom();
+  };
+
+  window.resetZoom = function() {
+    const vw = scroll.clientWidth, vh = scroll.clientHeight;
+    const iw = inner.offsetWidth || 400, ih = inner.offsetHeight || 300;
+    z = 1;
+    tx = (vw - iw) / 2;
+    ty = (vh - ih) / 2;
+    applyZoom();
+  };
+
+  function zoomBy(factor, cx, cy) {
+    const rect = scroll.getBoundingClientRect();
+    const mx = (cx ?? rect.left + rect.width / 2) - rect.left;
+    const my = (cy ?? rect.top + rect.height / 2) - rect.top;
+    const newZ = Math.max(0.05, Math.min(z * factor, 20));
+    tx = mx - (mx - tx) * newZ / z;
+    ty = my - (my - ty) * newZ / z;
+    z = newZ;
+    applyZoom();
+  }
+
+  scroll.addEventListener("wheel", e => {
+    e.preventDefault();
+    const factor = e.deltaY < 0 ? 1.12 : 1 / 1.12;
+    zoomBy(factor, e.clientX, e.clientY);
+  }, { passive: false });
+
+  document.getElementById("btn-zoom-in").addEventListener("click", () => zoomBy(1.25));
+  document.getElementById("btn-zoom-out").addEventListener("click", () => zoomBy(1 / 1.25));
+  document.getElementById("btn-fit").addEventListener("click", () => fitToView());
+  document.getElementById("btn-zoom-reset").addEventListener("click", () => resetZoom());
+
+  let panning = false, startX = 0, startY = 0;
+  scroll.addEventListener("mousedown", e => {
+    if (e.button !== 0) return;
+    panning = true;
+    startX = e.clientX - tx;
+    startY = e.clientY - ty;
+    scroll.classList.add("panning");
+  });
+  document.addEventListener("mousemove", e => {
+    if (!panning) return;
+    tx = e.clientX - startX;
+    ty = e.clientY - startY;
+    applyZoom();
+  });
+  document.addEventListener("mouseup", () => {
+    panning = false;
+    scroll.classList.remove("panning");
+  });
+
+  // expose for post-render fit
+  window._zoomInit = () => fitToView();
+})();
+
+/* ── Resizer ── */
+(function initResizer() {
+  const resizer = document.getElementById("resizer");
+  const editorPane = document.getElementById("editor-pane");
+  let dragging = false, startX = 0, startW = 0;
+
+  resizer.addEventListener("mousedown", e => {
+    dragging = true;
+    startX = e.clientX;
+    startW = editorPane.offsetWidth;
+    resizer.classList.add("dragging");
+    document.body.style.userSelect = "none";
+    document.body.style.cursor = "col-resize";
+  });
+
+  document.addEventListener("mousemove", e => {
+    if (!dragging) return;
+    const delta = e.clientX - startX;
+    const newW = Math.max(180, Math.min(startW + delta, window.innerWidth - 300));
+    editorPane.style.width = newW + "px";
+  });
+
+  document.addEventListener("mouseup", () => {
+    if (!dragging) return;
+    dragging = false;
+    resizer.classList.remove("dragging");
+    document.body.style.userSelect = "";
+    document.body.style.cursor = "";
+  });
+})();
+
+/* ── Bootstrap ── */
+DEFAULTS.forEach(d => createTab(d.title, d.code));
+activeId = tabs[0].id;
+document.getElementById("editor").value = tabs[0].code;
+renderTabBar();
+updateStatusBar();
+renderDiagram();
+</script>
+</body>
+</html>

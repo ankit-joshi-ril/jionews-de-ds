@@ -1,0 +1,36 @@
+id,publication_id,pub_name,feed_url,language_id,language_name,category_id,category_name
+1,9360,TV9 Network,https://www.tv9hindi.com/jio-shortvideo-feed.xml,2,Hindi,13,news
+3,9360,TV9 Network,https://www.tv9marathi.com/jio-shortvideo-feed.xml,4,Marathi,13,news
+4,9360,TV9 Network,https://www.tv9telugu.com/jio-shortvideo-feed.xml,5,Telugu,13,news
+5,9360,TV9 Network,https://www.tv9kannada.com/jio-shortvideo-feed.xml,9,Kannada,13,news
+6,9360,TV9 Network,https://tv9gujarati.com/jio-shortvideo-feed.xml,3,Gujarati,13,news
+7,9360,TV9 Network,https://www.news9live.com/jio-shortvideos-feed/,1,English,13,news
+8,7777,CNBC-TV18,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCmRbHAgG2k2vDUvb3xsEunQ,1,English,13,news
+9,7777,CNN-News18,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCef1-8eOpJgud7szVPlZQAQ,1,English,13,news
+10,7777,FirstPost,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCz8QaiQxApLq8sLNcszYyJw,1,English,13,news
+11,7777,News18 Bangla,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCbf0XHULBkTfv2hBjaaDw9Q,7,Bangla,13,news
+12,7777,News18 Bihar,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC531MlZA5LUbeGwEN_zcppw,2,Hindi,13,news
+13,7777,News18 Gujarati,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCqfX_f4rBbPhq_KESE4saCA,3,Gujarati,13,news
+14,7777,News18 Hindi,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCn1P85eKDEXS2iwbcasBm-g,2,Hindi,13,news
+15,7777,News18 Kannada,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCa-vioGhe2btBcZneaPonKA,9,Kannada,13,news
+16,7777,News18 Kerala,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC-mMi78WJST4N5o8_i1FoXw,10,Malayalam,13,news
+17,7777,News18 Lokmat,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCrcpw88HvKJ0skdsHniCJtQ,4,Marathi,13,news
+18,7777,News18 Odia,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCUK49UvmYWYLiB7_bZFuFZQ,11,Odia,13,news
+19,7777,News18 Punjabi,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC-crZTQNRzZgzyighTKF0nQ,12,Punjabi,13,news
+20,7777,News18 Tamil,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCat88i6_rELqI_prwvjspRA,6,Tamil,13,news
+21,7777,News18 Telugu,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC-PPlFHLfi4wcFOe6DrReCQ,5,Telugu,13,news
+22,7777,News18 Urdu,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC9IQhNgS43lmUdU-KdGyb0A,8,Urdu,13,news
+23,7777,Overdrive,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC_5Xhfmz-KE3VyVuhwJ57hw,1,English,13,news
+24,7777,Showsha,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCLnuTrdp3MBzo9ZPig5szbQ,1,English,13,news
+25,7777,Storyboard 18,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCgx_MrFNWS6rbwaPKKsdXdA,1,English,13,news
+26,7778,IBC24,https://www.ibc24.in/jio_sample_mrss_feed.xml,2,Hindi,13,news
+27,7779,IANS,https://ianslive.in/jiofeed-shorts.rss,2,Hindi,13,news
+28,7780,TIL - NBT,https://nbtfeed.indiatimes.com/langapi/jio/videos/short-videos,2,Hindi,13,news
+29,7780,TIL - MT,https://mtpwafeeds.indiatimes.com/langapi/jio/videos/short-videos,4,Marathi,13,news
+30,7780,TIL - VK,https://vkfeed.indiatimes.com/langapi/jio/videos/short-videos,9,Kannada,13,news
+31,7780,TIL - Telugu Samayam,https://tlgfeed.samayam.com/langapi/jio/videos/short-videos,5,Telugu,13,news
+32,7780,TIL - Tamil Samayam,https://tmlfeed.samayam.com/langapi/jio/videos/short-videos,6,Tamil,13,news
+33,7780,TIL - Malayalam Samayam,https://mlyfeed.samayam.com/langapi/jio/videos/short-videos,10,Malayalam,13,news
+34,7780,TIL - IAG,https://iagfeed.indiatimes.com/langapi/jio/videos/short-videos,3,Gujarati,13,news
+49,7782,IANS,https://cms.iansnews.in/api/elastic/jiovideo/list/?language=English&tags=short_videos,1,English,13,news
+50,7782,IANS,https://cms.iansnews.in/api/elastic/jiovideo/list/?language=Hindi&tags=short_videos,2,Hindi,13,news

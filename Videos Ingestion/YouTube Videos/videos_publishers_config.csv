@@ -1,0 +1,347 @@
+publication_id,publication_name,publisher_name,channel_id,language,category,language_id,category_id,to_scrape
+4,Dainik Jagran,Jagran Prakashan,UCSKgOW8Pg_eZymYJyJc432g,Hindi,news,2,13,FALSE
+12,News18 Assamese,Network 18,UCAjBd-r8JWfnRjfhg23nqLQ,Assamese,news,13,13,FALSE
+14,Lokmat,Lokmat Group,UC5MHSwQ2menwYF2DqKoJsZg,Marathi,news,4,13,FALSE
+20,CNN-News18,Network 18,UCef1-8eOpJgud7szVPlZQAQ,English,news,1,13,FALSE
+56,Forbes India,Network 18,UCb9Cheg6Cf6r2mcsaleVx7g,English,news,1,13,FALSE
+92,Webdunia Gujarati,Webdunia,UCdxzHoHBXyY0Rsyuh4gZKUg,Gujarati,news,3,13,FALSE
+232,Rajasthan Patrika,Rajasthan Patrika Group,UCWk-7Yosyvzln9ZzJg8BvVg,Hindi,news,2,13,FALSE
+295,Webdunia telugu,Webdunia,UCms80E72sIzJs4YPRJaOvZw,Telugu,news,5,13,FALSE
+304,Webdunia Kannada,Webdunia,UCDfOFTP71q16F8p1OvW9Xmg,Kannada,news,9,13,FALSE
+308,Webdunia Marathi,Webdunia,UCoTF_xCCgkunYboLK0gmz8g,Marathi,news,4,13,FALSE
+320,Webdunia Malayalam,Webdunia,UChpANFBCBwWG1FxSvfHkmyQ,Malayalam,news,10,13,FALSE
+324,Webdunia Tamil,Webdunia,UCxFIiFdLJaTcNBfQYTiLElw,Tamil,news,6,13,FALSE
+328,News18 Bangla,Network 18,UCbf0XHULBkTfv2hBjaaDw9Q,Bangla,news,7,13,FALSE
+371,News18 Gujarati,Network 18,UCqfX_f4rBbPhq_KESE4saCA,Gujarati,news,3,13,FALSE
+427,Webdunia Hindi,Webdunia,UCUwiVO9Uq7ks1LWHHY7ZARQ,Hindi,news,2,13,FALSE
+534,News18 Urdu,Network 18,UC9IQhNgS43lmUdU-KdGyb0A,Urdu,news,8,13,FALSE
+535,News18 Hindi,Network 18,UCPP3etACgdUWvizcES1dJ8Q,Hindi,news,2,13,FALSE
+539,Overdrive,Network 18,UC_5Xhfmz-KE3VyVuhwJ57hw,English,automotive,1,10,FALSE
+540,News18 Lokmat,Network 18,UCrcpw88HvKJ0skdsHniCJtQ,Marathi,news,4,13,FALSE
+638,Namasthe Telangana,Telangana Publications,UCGK11EQwSUXSBDsP-Aw9RWQ,Telugu,news,5,13,FALSE
+685,Sportskeeda Cricket,Sportskeeda,UCNB3EZTFZhVTwvEoo1Cw3Dg,Hindi,cricket,2,18,FALSE
+693,GSTV News,GSTV News,UCR6arqcGnmild76MuXQjezA,Gujarati,news,3,13,FALSE
+733,Pinkvilla,Pinkvilla,UCkJZQddO3XTCdcLjN019FjA,English,entertainment,1,3,FALSE
+763,Malayalam Express TV,Malayalam Express Online ,UCzqrSgcGF1f-BzM1EVk4M9A,Malayalam,news,10,13,FALSE
+795,Zigwheels,CarDekho,UCjmjWp38PCg15Z5ZS-tmpfw,English,automotive,1,10,FALSE
+851,డిజిట్ తెలుగు - Digit Telugu,Digit,UCmERWHzlS4PS7C3JhqdQg2A,Telugu,technology,5,14,FALSE
+852,ഡിജിറ്റ് മലയാളം - Digit Malayalam,Digit,UCd7ycss5JkVzLK7Gpvpb6bg,Malayalam,technology,10,14,FALSE
+853,ডিজিট বাংলা - Digit Bangla,Digit,UCqMDK9dwTlIITAJD-MWjEiQ,Bangla,technology,7,14,FALSE
+964,NDTV Profit,NDTV,UC3uJIdRFTGgLWrUziaHbzrg,English,business,1,17,FALSE
+1144,The Quint,Quintillion Media,UCSaf-7p3J_N-02p7jHzm5tA,English,news,1,13,FALSE
+1160,Prabhasakshi,Dwarikesh Informetics,UCk77z4G2lg2_wFoFRz6XZSg,Hindi,news,2,13,FALSE
+1178,LatestLY Hindi,LatestLY Media,UC8S6wDbjSsoR_Nlp6YnR6ZA,Hindi,news,2,13,FALSE
+1198,The Free Press Journal,The Free Press Journal,UCM1VqjE2rshkzKfp4zRVwKA,English,news,1,13,FALSE
+1211,Real News Kerala,Real News Kerala,UC3KDIAXauHYxSiML_TpEF_A,Malayalam,news,10,13,FALSE
+1222,News18 Malayalam,Network 18,UC-mMi78WJST4N5o8_i1FoXw,Malayalam,news,10,13,FALSE
+1234,News18 Kannada,Network 18,UCa-vioGhe2btBcZneaPonKA,Kannada,news,9,13,FALSE
+1235,News18 Tamil ,Network 18,UCat88i6_rELqI_prwvjspRA,Tamil,news,6,13,FALSE
+1236,News18 Telugu,Network 18,UC-PPlFHLfi4wcFOe6DrReCQ,Telugu,news,5,13,FALSE
+1237,News18 Punjabi,Network 18,UC-crZTQNRzZgzyighTKF0nQ,Punjabi,news,12,13,FALSE
+1240,CNBC-TV18,Network 18,UCmRbHAgG2k2vDUvb3xsEunQ,English,business,1,17,FALSE
+1241,LatestLY Marathi,LatestLY Media,UCmbEgQlkQhQESyy_mhChOIA,Marathi,news,4,13,FALSE
+1245,Shivalik Journal,Shivalik Journal,UCUQF08IjPILDa3JiHJrMaDg,Hindi,news,2,13,FALSE
+1254,E News Bangla,E News Bangla,UC1amk3Q8NpXF2Wg1LNn2GLA,Bangla,news,7,13,FALSE
+1268,Dynamite News,Dynamite News,UCxwOzeiqH88wAvYmpWeEy5A,Hindi,news,2,13,FALSE
+1305,YourStory,YourStory,UC9pxOEHrjsl7YKBSc7sl_KQ,English,news,1,13,FALSE
+1329,Punjab Kesari TV,Punjab Kesari,UC3_TTermAnf2fcLe-QX7BVQ,Hindi,news,2,13,FALSE
+1334,Sangbad Pratidin,Sangabad Pratidin,UCLPCvTftdZpZQSM-mckfqXQ,Bangla,news,7,13,FALSE
+1336,VTV Gujarati News and Beyond,VTV Gujarati,UCMX41X1am8oYxT336dqk4sA,Gujarati,news,3,13,FALSE
+1339,Outlook Magazine,Outlook,UCMV-o0NQaBeldj1YaiY4xvg,English,news,1,13,FALSE
+1352,LatestLY Bangla,LatestLY Media,UCYvVYWhoKBURITLBe5eA82Q,Bangla,news,7,13,FALSE
+1389,ಡಿಜಿಟ್ ಕನ್ನಡ - Digit Kannada,Digit,UCEaQMqN-bqZvjhbu5Qos27Q,Kannada,technology,9,14,FALSE
+1390,டிஜிட் தமிழ் - Digit Tamil,Digit,UCLkVJpTLHhEh85-UtpS-EAw,Tamil,technology,6,14,FALSE
+1402,Dinasuvadu,Dinasuvadu,UCzj_pwht7G0drVioz9kmv6w,Tamil,news,6,13,FALSE
+1405,JioSaavn,JioSaavn,UCqi93fwjyr32JA3JeULeNkA,English,entertainment,1,3,FALSE
+1479,SakalMedia,Sakal,UC-AY02VQo-F_trSeTKUu_QQ,Marathi,news,4,13,FALSE
+1480,Sakal times,Sakal,UCZBIJt4b6fMpdYaUqlsi1hg,English,news,1,13,FALSE
+1522,Himachal Abhi Abhi,Himachal Abhi Abhi,UC8G7QzU-XjVNDLFlzN1JJlg,Hindi,news,2,13,FALSE
+1525,Gne Bangla,GNE Bangla,UC99U0NbywAGthCBLKhDkclw,Bangla,news,7,13,FALSE
+1566,Odisha Live,Odisha Live,UC-I8Yhx2Sf-5muUol-ZHvCg,Odia,news,11,13,FALSE
+1600,Desher Samay,Desher Samay,UC0o5Ix-OtJDFybO0Met_e5Q,Bangla,news,7,13,FALSE
+1601,Swasthya Plus,Odisha Live,UCRMmRQ2618gs7Ps-76jjRCA,Odia,health,11,8,FALSE
+1611,Tarun Mitra,Tarun Mitra,UC0CVselbNwe5sY_RRmXwR4Q,Hindi,news,2,13,FALSE
+1618,Mango News,Mango News,UCv98nH5lII-twQqyvFVRe8Q,Telugu,news,5,13,FALSE
+1619,Telugu Filmnagar,Mango News,UCintIUOJEktQBfhEI9XXpuw,Telugu,entertainment,5,3,FALSE
+1621,NDTV,NDTV,UCZFMm1mMw0F81Z37aaEzTUA,English,news,1,13,FALSE
+1623,Captain News,Captain News,UCno6OgN7-NDmRTNBgqWevlw,Tamil,news,6,13,FALSE
+1624,NewsJ,Captain News,UCsfh2Zb7-m4qzT8jLhK_Fzw,Tamil,news,6,13,FALSE
+1625,Galatta Tamil,Captain News,UCSbUX_gKMur5FPcTbH2L5mA,Tamil,entertainment,6,3,FALSE
+1627,Kalashanti Jyotish,Kalashanti Jyotish,UCgUX-fXRDEKTpdUbMuiGH4w,Hindi,spiritual,2,20,FALSE
+1629,Nandighosha TV,Nandighosha TV,UCCTrqrHKqdS915K-TpMG6pg,Odia,news,11,13,FALSE
+1640,Women's Web,Womens Web,UCMEEsJUnSZrpXPaepdSm5Yw,Hindi,news,2,13,FALSE
+1643,Sharmaji Infinity,Sharmaji Infinity,UCRyLLObX8cGElWLqb65jL5A,Hindi,health,2,8,FALSE
+1644,Time8 News,Time8,UCDnrXkM5KnZnfheiLDjaNbg,Assamese,news,13,13,FALSE
+1664,National Duniya,National Duniya,UCu5Anj5eXCTbzybYQr_E0Rg,Hindi,news,2,13,FALSE
+1665,The Argus,The Argus,UCwBK7Cdk0wq8rCjxcvaoHzg,Odia,news,11,13,FALSE
+1674,IBC24,IBC-24,UCBc13XYipnBIBE3Ff8QaaGg,Hindi,news,2,13,FALSE
+1681,Siasat Daily,The Siasat Daily,UC8lVvurdhqV2-cTizQjh4wQ,Urdu,news,8,13,FALSE
+1685,24 Ghante Online,24 Ghante Online,UCsm69DEqCPW_0lQ0utcM0DA,Hindi,news,2,13,FALSE
+1699,Kashmir Monitor,The Kashmir Monitor,UCSsvgHSJixaPVduu3-xmDOw,English,news,1,13,FALSE
+1700,Kalakkalcinema Videos,Kalakkalcinema,UCqv-IG_22jidFMPX4lfILVQ,Tamil,entertainment,6,3,FALSE
+1710,NewsFirst Kannada,News First Live,UCFRlIV1mX-traJb5fd7S3nw,Kannada,news,9,13,FALSE
+1714,Navbharat Live,Navbharat Live,UCWblKweZ4XcF12mpk00STzw,Hindi,news,2,13,FALSE
+1720,autoX,autoX,UCE6olusNOY-YmBoT9ArfjGg,English,automotive,1,10,FALSE
+1727,South Asia Monitor,South Asia Monitor,UC9CV3zxCCUIqi_wlJCurrbw,English,news,1,13,FALSE
+1730,True Scoop TV,True Scoop,UCeJM_WX9j-n9q4b7AmvWL-Q,English,news,1,13,FALSE
+1745,Disha TV,Disha Daily,UC2A79PtHiLLdfpeP8zsJpwQ,Telugu,news,5,13,FALSE
+1747,Business Insider India,Buisness Insider,UC62AhAC25Ukuscqux_f1rjA,English,news,1,13,FALSE
+1818,Tatwamayi News,Tatwamayi News ,UC2CFIlhrZKca1I0JqmRmpTQ,Malayalam,news,10,13,FALSE
+1837,Torrentspree,Torrent Spree,UCCaAR1Sblimn6d_7DFxwlxQ,Kannada,news,9,13,FALSE
+5001,ANI,ANI,UCtFQDgA8J8_iiwc5-KoAQlg,English,news,1,13,FALSE
+5010,NEWJ,NewJ,UCvTAAa8-yBQEVgLLCKYbAiQ,Hindi,news,2,13,FALSE
+5014,Go News,GoNews,UCT701YsERryYrQ1Sz8XEGaA,Hindi,news,2,13,FALSE
+9011,News18 Odia,Network 18,UCUK49UvmYWYLiB7_bZFuFZQ,Odia,news,11,13,FALSE
+9013,News18 Bihar,Network 18,UC531MlZA5LUbeGwEN_zcppw,Hindi,news,2,13,FALSE
+9014,Crux,Network 18,UC3prwMn9aU2z5Y158ZdGyyA,English,news,1,13,FALSE
+9015,CNBC Awaaz,Network 18,UCQIycDaLsBpMKjOCeaKUYVg,Hindi,business,2,17,FALSE
+9016, Global Spa,Pinnacle Connect,UCVSiPBEgS_ZpgJYj0kz0CKw,English,fashion,1,5,FALSE
+9017,Peak Life,Pinnacle Connect,UCQeF3gjvAZnlPWH-WNRHDow,English,fashion,1,5,FALSE
+9021,Lallantop,India Today Group,UCx8Z14PpntdaxCt2hakbQLQ,Hindi,news,2,13,FALSE
+9022,Gambheer Samachar,Mohta Publishing House,UC-wJEUi0GKw2RxqkX1AeYww,Hindi,news,2,13,FALSE
+9023,Sharmila Showhouse,Sharmila Showhouse,UC633Fg3rXkVNw1e7ZORWHuw,Bangla,news,7,13,FALSE
+9025,India Blooms,India Blooms,UCHSDSUSK6IHrXrA9902SjeQ,English,news,1,13,FALSE
+9027,FitMuscle TV,Flying Beast,UCn8Fiasqd-6G3A6AS322mZA,Hindi,health,2,8,FALSE
+9028,Not In Town,India Blooms,UCrKTmUnGg6C55FknqxOUL1A,English,travel,1,11,FALSE
+9029,Just Earth News,India Blooms,UCzzrrzbY1wAMN39KhtOfNHg,English,news,1,13,FALSE
+9034,E news bangla entertainment,E News Bangla,UCxSg967T0UqJwrSxPWIJlOw,Bangla,news,7,13,FALSE
+9035,Cinema hunt,E News Bangla,UCtjv60LWPnG2_vy5Lo8E3Fw,Hindi,news,2,13,FALSE
+9036,KidzByte,KidzByte,UCIb-YoV_cDOd7Og2zKKOZsA,English,news,1,13,FALSE
+9037,Kolkata Talk JhalMisti,Campaigncalling Media,UCpeRo2ur_Y0dhdv_N-5JOCw,Bangla,food,7,9,FALSE
+9038,Outlook Traveller,Outlook,UCLCCJiC0GYfAbvKXCQtWYMA,English,travel,1,11,FALSE
+9039,Punjab Kesari Haryana,Punjab Kesari,UC7DRVhyXnevPNvNWlZ8gbPQ,Hindi,news,2,13,FALSE
+9040,Punjab Kesari Jharkhand,Punjab Kesari,UCH80Q9pEmRIXkHFi6N7YGlQ,Hindi,news,2,13,FALSE
+9041,Punjab Kesari Himachal Pradesh,Punjab Kesari,UCNAmXxBJ0L_wcGMFPVtCGDw,Hindi,news,2,13,FALSE
+9042,Tadka Bollywood,Punjab Kesari,UChfIXYFa1oN8DQsUFTHJkNw,Hindi,entertainment,2,3,FALSE
+9043,PUNJAB KESARI MP,Punjab Kesari,UCkrMe05HCOoz_R_4saWTDbA,Hindi,news,2,13,FALSE
+9044,Punjab Kesari Uttarakhand,Punjab Kesari,UC0iN-8mSY2RXLMoxuUdtedg,Hindi,news,2,13,FALSE
+9045,Punjab Kesari Bihar,Punjab Kesari,UCYybSJu14KiBJYnQNV61_Dg,Hindi,news,2,13,FALSE
+9046,Punjab Kesari UP,Punjab Kesari,UCSDWX4UZFrwxVj0OloYc7HQ,Hindi,news,2,13,FALSE
+9047,Bollywood Tadka Punjabi,Punjab Kesari,UCEkRUp2K6bC2o9ZX5fy8scw,Punjabi,entertainment,12,3,FALSE
+9048,Jagbani,Punjab Kesari,UCCdck7pTS5H4SR2VZw_O96A,Punjabi,news,12,13,FALSE
+9051,Jugaad,Punjab Kesari,UCmeQhm2VWTNU0YFzZ-9jMgg,English,diy,1,19,FALSE
+9055,xBhp,xBhp,UCOaCnLXp374Z_8DhU9-OkPA,English,automotive,1,10,FALSE
+9057,Viral Marathi,Viral Marathi,UCpF1JHDWGyYkMdo7RgTTOYA,Marathi,news,4,13,FALSE
+9058,Fit Tuber English,Fit Tuber,UCYC6Vcczj8v-Y5OgpEJTFBw,English,health,1,8,FALSE
+9059,Fit Tuber Hindi,Fit Tuber,UCDWVNwQce16D16tPc5NBYlQ,Hindi,health,2,8,FALSE
+9060,Car India Magazine,NextGen Publishing,UC76ZHFf0mAD8-DaqEln3aSA,English,automotive,1,10,FALSE
+9061,Bike India,NextGen Publishing,UCqs0XxHzYmo1S3kCPutaJOw,English,automotive,1,10,FALSE
+9062,Auto Components India Magazine,NextGen Publishing,UCXulbnqUzdTiIQrCYAYE2Fg,English,automotive,1,10,FALSE
+9063,CV Magazine,NextGen Publishing,UCiILFrB-Qq3jKceUaBB83nA,English,automotive,1,10,FALSE
+9064,Khooni Monday,Khooni Monday,UCz67TNWBqU38S8VRvjDO2wg,Hindi,entertainment,2,3,FALSE
+9065,Bloody Monday,Khooni Monday,UCSrwe1JzAUQcbF-ot8_aqxQ,English,entertainment,1,3,FALSE
+9068,NDTV India,NDTV,UC9CYT9gSNLevX5ey2_6CK0Q,Hindi,news,2,13,FALSE
+9069,Tech Travel Eat by Sujith Bhakthan,Tech Travel Eat,UCeoRAN5sr02w8_9aFWxIM4g,Malayalam,travel,10,11,FALSE
+9070,Kadak,Network 18,UCwcH94eG9YYAn1G2nfw3j-w,Hindi,news,2,13,FALSE
+9073,Patrika Madhya Pradesh,Rajasthan Patrika Group,UCKrXAcPJPFewJ0z1G-GgjTw,Hindi,news,2,13,FALSE
+9074,Patrika Varanasi,Rajasthan Patrika Group,UC8s7qAzry0mm76FdvGZpXgw,Hindi,news,2,13,FALSE
+9075,Patrika News,Rajasthan Patrika Group,UCTq2djCHU2srPIeNY33hoCQ,Hindi,news,2,13,FALSE
+9076,Patrika Noida,Rajasthan Patrika Group,UCUrZYwbQyeK3RgwLcYpA2Ag,Hindi,news,2,13,FALSE
+9077,Patrika Uttar Pradesh,Rajasthan Patrika Group,UCo7YoFIZJiGj4vfk20ulPGQ,Hindi,news,2,13,FALSE
+9078,Patrika Agra,Rajasthan Patrika Group,UCf22pGQqCSN5nsk1uz_7_8A,Hindi,news,2,13,FALSE
+9079,Ratheesh R Menon,Ratheesh R Menon,UCM9fQt4Fw4-GxjBwt_PC7bA,Malayalam,technology,10,14,FALSE
+9080,Polimer News,Captain News,UC8Z-VjXBtDJTvq6aqkIskPg,Tamil,news,6,13,FALSE
+9081,Nakkheeran TV,Captain News,UCdMtj4CiqlZTgzFT5FdDd7A,Tamil,news,6,13,FALSE
+9082,Nakkheeran 360,Captain News,UCmDQCesLnfGrZy4c7mCg50w,Tamil,news,6,13,FALSE
+9083,Hindu Tamil Thisai,The Hindu Tamil,UCJ36XbT02JNAlBEBgZtW7GQ,Tamil,news,6,13,FALSE
+9084,Saam Marathi TV News,Sakal,UC6cxTsUnfSZrj96KNHhRTHQ,Marathi,news,4,13,FALSE
+9085,NEWJ Dharohar,NewJ,UCsxUfRSw0AOnnghHpuN8dvA,Hindi,spiritual,2,20,FALSE
+9086,GameOn,NewJ,UCroXYbhU8G2436kTb_wYnGQ,English,sports,1,12,FALSE
+9087,Mumbai Indians,Mumbai Indians,UCl23mvQ3321L7zO6JyzhVmg,English,cricket,1,18,FALSE
+9097,Swetha Bhakthan,Tech Travel Eat,UCdCtx_-7aDsUG6vSD19zULQ,Malayalam,food,10,9,FALSE
+9098,Malayalam Express News,Malayalam Express Online ,UCa-Pzt8rSEuTcUKJOie8QrQ,Malayalam,news,10,13,FALSE
+9100,Inextlive,Jagran Prakashan,UCACsggM5x7HAFEutsU-hLyg,Hindi,news,2,13,FALSE
+9107,Powerdrift,CarDekho,UCMDV6J2hWXet7ZCfgrXGgeg,English,automotive,1,10,FALSE
+9108,Tech Marathi,Tech Marathi,UCLiC3yKUe02z0GkB62Dglsw,Marathi,technology,4,14,FALSE
+9109,Sharmaji Technical,Sharmaji Infinity,UCdiHpeH9fr4DMK_3wbUZapA,Hindi,technology,2,14,FALSE
+9111,Silly Monks Tamil,Silly Monks Network,UC0P0Q3_IpIg_VCpZCUeh9oA,Tamil,entertainment,6,3,FALSE
+9116,Tamil NEWJ,NewJ,UCcSROctkGH096C79V-Vo98g,Tamil,news,6,13,FALSE
+9117,Bangla NEWJ,NewJ,UCNmkzQyU4A0hDJR_biu1fQA,Bangla,news,7,13,FALSE
+9121,Smart Photography,NextGen Publishing,UCM-uktd4xTb8DLeRtA2bbZg,English,technology,1,14,FALSE
+9122,T3 India,NextGen Publishing,UCUbsfKVJJOFnX2XMqKnyl7g,English,technology,1,14,FALSE
+9124,Sportstime247,Sportstime247,UCU7PVddQRu6jvU_ZgmhpVXg,Hindi,sports,2,12,FALSE
+9125,NYOOOZ UP-Uttarakhand,NYOOOZ,UCIowS6bvyA8gD4X5J0E-yEw,Hindi,news,2,13,FALSE
+9128,Swasthya Plus Hindi,Odisha Live,UCFQikAvX3CVKRD8qv87fV5A,Hindi,health,2,8,FALSE
+9129,Manoj Tibrewal Aakash,Dynamite News,UC09FOBNv-SAzY6ou9Q2iK5Q,Hindi,news,2,13,FALSE
+9132,Siasat TV,The Siasat Daily,UCtrZ2EYLdLVR9G1eKCfN4pg,Urdu,news,8,13,FALSE
+9133,Asset Yogi,Asset Yogi,UCsNxHPbaCWL1tKw2hxGQD6g,Hindi,business,2,17,FALSE
+9135,Krushinama,Maharashtra Desha,UCNgsCNv1UBvVzAZAtdpzHoA,Marathi,news,4,13,FALSE
+9136,InShorts Marathi,Maharashtra Desha,UChZR5ps6cv7BdKIAaJhqhTA,Marathi,news,4,13,FALSE
+9137,Maharashtra Desha,Maharashtra Desha,UCQfL0-rUF8ieDoj6aBTCclQ,Marathi,news,4,13,FALSE
+9140,Ranveer Brar,Ranveer Brar,UCEHCDn_BBnk3uTK1M64ptyw,Hindi,food,2,9,FALSE
+9142,Healthy Kadai,Sparsh Hacks,UCHgSkWQRH1W52pkeU6Y4D8g,English,food,1,9,FALSE
+9146,Astrologer Bejan Daruwalla,Astrologer Bejan Daruwalla,UCAHnJF081UOJtLjtV5TUblg,Hindi,astrology,2,22,FALSE
+9147,The Mobile Indian,The Mobile Indian,UCV3LhAvsuoRUfv311OecnfQ,Hindi,technology,2,14,FALSE
+9197,Lokmat Hindi,Lokmat Group,UCmqx3ukqhdbSJWJB_SdCbqA,Hindi,news,2,13,FALSE
+9198,Lokmat Bhakti,Lokmat Group,UCRPaDR9Y6tOH3Hgi9H23acw,Marathi,spiritual,4,20,FALSE
+9199,ShudhDesi Marathi,Lokmat Group,UCVkI3h_p4wrvev3se4thweg,Marathi,entertainment,4,3,FALSE
+9200,TsMadaan,TsMadaan,UCKjJXmZxk1SiTUQUB28KHpw,Hindi,Career,2,26,FALSE
+9201,Awal Creations,TsMadaan,UCRiTEeVgje9HE4bKnwdxbXQ,Hindi,Career,2,26,FALSE
+9202,Pooja Sachdeva,Pooja Sachdeva,UCegyLMBRPQQxdjI2QWDT4_A,Hindi,entertainment,2,3,FALSE
+9203,Astro Friend Chirag,Astrologer Bejan Daruwalla,UCW-A-VW9RE4a_f8Eyphe0vw,English,astrology,1,22,FALSE
+9206,News18 Virals,Network 18,UCAF1vryFYnaYhbpvL351ntA,Hindi,news,2,13,FALSE
+9208,Firstpost,Network 18,UCz8QaiQxApLq8sLNcszYyJw,English,news,1,13,FALSE
+9209,Viral Bhayani,Viral Bhayani,UC1bdAV8ZlDI8YJWLRPh3fAg,English,entertainment,1,3,FALSE
+9210,Astrologer Ridhibahl,Astrologer Ridhibahl,UCpAAWiYOynyaCmWUtiVvCZg,Hindi,astrology,2,22,FALSE
+9211,Praveen Dilliwala,Praveen Dilliwala,UCaaNkoAIWG_piI3srX0rxDQ,Hindi,Career,2,26,FALSE
+9212,Taaza TV,Taaza TV,UCcl_1cXLWkyyxXBHZOjqgSQ,Hindi,news,2,13,FALSE
+9213,OTV News,OdishaTv,UCLICwoQk9zLpb8FpKq9UxpQ,English,news,1,13,FALSE
+9214,Filmy NEWJ,NewJ,UCJAgiQ_pIaZh-AwlVIigALg,Hindi,entertainment,2,3,FALSE
+9216,Hombale Films,Captain News,UCarJoVXH0T2pdtcHBu9J8Bw,Kannada,entertainment,9,3,FALSE
+9217,DB Live,DB Live,UCBbpLKJLhIbDd_wX4ubU_Cw,Hindi,news,2,13,FALSE
+9218,Me News,Me News,UCvc8SrVApMrGNpqKRUkFMgA,Malayalam,news,10,13,FALSE
+9219,OTT India,OTT India,UCxSPAZUUQaAxx1q8o0YcM9g,Hindi,news,2,13,FALSE
+9221,Janam TV,Janam TV,UCNVkxRPqsBNejO6B9thG9Xw,Malayalam,news,10,13,FALSE
+9222,Sandesh News,Sandesh News,UCiAH2s_M6nPfGZk-PpfyPkg,Gujarati,news,3,13,FALSE
+9223,Tamil Cricket News,Tamil Cricket News,UC4FUjHHzr753fv9vQ4mE32g,Tamil,cricket,6,18,FALSE
+9224,Telugu Buzz,Telugu Buzz,UCTNh21Nuh-nY5XZxg8cf4-w,Telugu,cricket,5,18,FALSE
+9225,Cricket In Bengali,Cricket In Bengali,UC-szLed3T930K9sk7RjTrFA,Bangla,cricket,7,18,FALSE
+9227,Selfie Review,The Hindu Tamil,UCFwhrXOTW6wj-j5qUYWbbOQ,Tamil,entertainment,6,3,FALSE
+9228,Cricket Poster,Cricket Poster,UCnPPkj5JtkEae-bWwz_dY3w,Telugu,cricket,5,18,FALSE
+9231,Hindu Talkies,The Hindu Tamil,UCqdgpyEDft-GJ2ey_izis-g,Tamil,entertainment,6,3,FALSE
+9232,Khel Tantra,Khel Tantra,UCVfgrMfvgDaBTsRXDfqVOcQ,Hindi,Football,2,32,FALSE
+9233,Telugu Bhakthi - తెలుగు భక్తి,Telugu Sports News,UCkQfTeInzwRAYXoo9Nfz2Fw,Telugu,spiritual,5,20,FALSE
+9234,Go Sport,Go Sport,UCAbtL_olLzW3QeQ-RAj73oA,Bangla,cricket,7,18,FALSE
+9235,Astro Chinnaraj,Astro Chinnaraj,UC-E5mr-VPLe3bO725QjqGnw,Tamil,astrology,6,22,FALSE
+9237,Lokmat CNX Filmy,Lokmat Group,UCC_aEK1jUpUPaa_N1aamvlA,Marathi,entertainment,4,3,FALSE
+9240,Lokshahi News,Lokshahi,UC2ut_DrUZvO0BzUxZ_g9fXQ,Marathi,news,4,13,FALSE
+9242,Tamil Cricket,Tamil Cricket,UCY6RnwdKKhZA0sIgY8P8bOQ,Tamil,cricket,6,18,FALSE
+9243,Vroom Head Malayalam,Vroom Head,UCys-xgPPR3Aalyuc9x3rfDA,Malayalam,news,10,13,FALSE
+9244,Samachar Today,Samachar Today,UC_xI1-TPo7cRINy-PVpcxVA,Hindi,news,2,13,FALSE
+9245,Sach Bedhadak,Awaz Multimedia & Publications,UCkwt6azuNxaA78Oq-_RLOUA,Hindi,news,2,13,FALSE
+9246,Sportskeeda India,Sportskeeda,UCHNbnZ5LE36rYv1sy6teodA,English,sports,1,12,FALSE
+9248,DailyBuzz India,DailyBuzz India,UClTiIRDNHdL7m1NDwp4PPtA,Hindi,news,2,13,FALSE
+9250,Cricketnmore,Cricketnmore,UCDu0qWEw2QDkiONnYWMlAsw,Hindi,cricket,2,18,FALSE
+9251,ETV Bharat Hindi,ETV Bharat,UCsZgHPe9vlXgEHa6vf84cdQ,Hindi,news,2,13,FALSE
+9252,ETV Bharat Marathi,ETV Bharat,UCFL_gd5px24Ab1gApZBzsRA,Marathi,news,4,13,FALSE
+9253,ETV Bharat English,ETV Bharat,UCKVM5FMqX90AquMlhzNP82Q,English,news,1,13,FALSE
+9254,ETV Bharat Bangla,ETV Bharat,UC8rWxR_4VKfFQt1ibfy71dg,Bangla,news,7,13,FALSE
+9255,ETV Bharat Telugu,ETV Bharat,UCE-4Rs8rZ2VRSkfIOAbZuHA,Telugu,news,5,13,FALSE
+9256,ETV Bharat Assamese ,ETV Bharat,UCZQEjq4cCTjQqnsWIEXOTgw,Assamese,news,13,13,FALSE
+9257,ETV Bharat Gujarati,ETV Bharat,UCFBK786zh9DLkENvgMvJENQ,Gujarati,news,3,13,FALSE
+9258,ETV Bharat Kannada,ETV Bharat,UCu7RKyniDK5i4aYuUhVTYJA,Kannada,news,9,13,FALSE
+9259,ETV Bharat Odia,ETV Bharat,UC05bhr9jdCb6bhzp8O5zSmQ,Odia,news,11,13,FALSE
+9260,ETV Bharat Punjabi,ETV Bharat,UCtkqTc3eBjJpE5HYgwRhn8Q,Punjabi,news,12,13,FALSE
+9261,ETV Bharat Malayalam,ETV Bharat,UCCR3_uIjtdS7t0baO6b9mYg,Malayalam,news,10,13,FALSE
+9262,ETV Bharat Tamil,ETV Bharat,UCQfHBgLUVbAHu-9O89kSjQw,Tamil,news,6,13,FALSE
+9263,ETV Bharat Urdu,ETV Bharat,UCXE-a27-EBapw1foqm2CQnQ,Urdu,news,8,13,FALSE
+9264,Dainik Maharashtra,Dainik Maharashtra,UCm3NLLFirqVZjAq1n7BxnJg,Marathi,news,4,13,FALSE
+9265,Vindhya Times,Vindhya Times,UCIJcdnGxBEkes4btpsWcXqw,Hindi,news,2,13,FALSE
+9268,BYJU'S IAS,Gradeup,UC1pfsmDBnMQB8sOuQvmTvRQ,English,Career,1,26,FALSE
+9269,BYJU'S IAS Hindi,Gradeup,UCt-54gb391qjUwSFv24vyBw,Hindi,Career,2,26,FALSE
+9270,BYJU'S GATE,Gradeup,UCCDB1Hwlr5Bk-zO4eEcWNTQ,English,Career,1,26,FALSE
+9271,BYJU'S CAT,Gradeup,UCr3TboR7Q7seWiGw2OJj4jg,English,Career,1,26,FALSE
+9272,BYJU'S CLAT,Gradeup,UCbONxIZkt9--7UPyYPYQYfA,English,Career,1,26,FALSE
+9273,BYJU'S AE JE,Gradeup,UCtNSK_mgNLHSzNsrUpxP_Pg,English,Career,1,26,FALSE
+9274,BYJU'S UGC NET,Gradeup,UCYJwuSC55Lnp6rmhOZov7tA,English,Career,1,26,FALSE
+9275,BYJU'S CSIR NET,Gradeup,UCdoiJyQk9CgtBJAtW2M0t1A,English,Career,1,26,FALSE
+9276,BYJU'S UPPSC,Gradeup,UCC7lRN7h1QbmqlMZEWctiLA,English,Career,1,26,FALSE
+9277,BYJU'S BPSC,Gradeup,UCxRuuu6ii9OWl5CUDim840w,English,Career,1,26,FALSE
+9278,BYJU'S CDS,Gradeup,UCrGow2eP8UTMyUxf0Xdfzlg,English,Career,1,26,FALSE
+9279,BYJU'S NDA,Gradeup,UC-n8szdwFgv4eAoO-GKbGNA,English,Career,1,26,FALSE
+9280,BYJU'S CTET & PRT,Gradeup,UCR4EwBu5Tn1x-z8zgulT-Wg,English,Career,1,26,FALSE
+9281,BYJU'S Bank PO,Gradeup,UCiY0rSCiZakRAPkhsEElhBw,English,Career,1,26,FALSE
+9282,BYJU'S Regulatory Bodies,Gradeup,UC9Pl36fD2MwvfVSijMTeFyQ,English,Career,1,26,FALSE
+9283,BYJU'S SSC & Railway ,Gradeup,UClyn4xufkVCSryKLc7-6c5Q,English,Career,1,26,FALSE
+9284,ONE Championship,ONE Championship,UCiormkBf3jm6mfb7k0yPbKA,English,sports,1,12,FALSE
+9285,Republic World,Republic World,UCwqusr8YDwM-3mEYTDeJHzw,English,news,1,13,FALSE
+9286,Republic Bharat,Republic Bharat,UC7wXt18f2iA3EDXeqAVuKng,Hindi,news,2,13,FALSE
+9287,Republic Bangla,Republic Bangla,UCajVjEHDoVn_AHsunUZz_EQ,Bangla,news,7,13,FALSE
+9288,Path Of Agriculture,Path Of Agriculture,UCi9lEkQU3WQBXvDTOgellMg,Hindi,Agro,2,51,FALSE
+9289,Ravizone Farming Leader,Ravizone Farming Leader,UCGR0bagfzpUuPub4cDpvUmA,Hindi,Agro,2,51,FALSE
+9290,FarmTV,FarmTV,UCSvEcMLnAKp-Yzw5L2IIvFA,Kannada,Agro,9,51,FALSE
+9291,Farming Engineer,Farming Engineer,UC0eNwX8qwnbRaNQB_SNZC9g,Hindi,Agro,2,51,FALSE
+9292,Indian Farmer Entrepreneur,Indian Farmer Entrepreneur,UC7p9KHWja0YxkTXqpshvNiw,Marathi,Agro,4,51,FALSE
+9293,Kisanwani,Kisanwani,UCw32iIbC5Zym66Y222tOTlw,Marathi,Agro,4,51,FALSE
+9294,Khedutbhai ,Khedutbhai,UCPSfNH-pU60iGdEW3KCZCxg,Gujarati,Agro,3,51,FALSE
+9296,Minnambalam,Minnambalam,UCgFSoS8vu0ONak4z5OBORHw,Tamil,news,6,13,FALSE
+9297,DW News,DW News,UCknLrEdhRCp1aegoMqRaCZg,English,news,1,13,FALSE
+9298,DW Hindi,DW Hindi,UCc7pPNFBvIhI4iV7m8plJuA,Hindi,news,2,13,FALSE
+9299,DW Tamil,DW Tamil,UCRIrAXzyn11EzeLpEKhVDuQ,Tamil,news,6,13,FALSE
+9300,BIG TV Telugu,BIG TV Telugu,UCiwVefPDI8JWGZPnvb8vgSA,Telugu,news,5,13,FALSE
+9315,The Bengali Chronicles,The Bengali Chronicles,UCjS2jJ_vZgDsKC-lwEP51rg,Bangla,news,7,13,FALSE
+9316,Briefly,NewJ,UCvdR5_T-tjRVyLVIzPI6Hkw,English,news,1,13,FALSE
+9317,Big TV Live,BIG TV Telugu,UCN1MXjng-rot-pglSJJ9SCA,Telugu,news,5,13,FALSE
+9318,IBC24 Jankarwan,IBC-24,UCpDTB3TWz6lvnDpfDCFaQtA,Hindi,news,2,13,FALSE
+9319,IBC Madhya,IBC-24,UCIwPfYFb4c0IQiCFIeZvI0g,Hindi,news,2,13,FALSE
+9320,IBC24 Maidani,IBC-24,UCOIzH8uP6Ss0ICF0xqOvRNg,Hindi,news,2,13,FALSE
+9321,IBC24 UP-UK,IBC-24,UCtxQodVeIxXIZq64DbANWBg,Hindi,news,2,13,FALSE
+9322,IBC24 Malwa,IBC-24,UChDYLnFrCroCMLUbo-JjT7g,Hindi,news,2,13,FALSE
+9323,IBC24 Mahakoshal,IBC-24,UCsFmm7Ba8NzaEzRfzuq8YRw,Hindi,news,2,13,FALSE
+9324,Small Enterprise India,Aspire Media,UCiidBOiyNlD88_aZHzxUxyQ,English,general interest,1,15,FALSE
+9325,Film companion south,Film Companion,UC3F4P3KGQTf35BXKmscDyMg,English,entertainment,1,3,FALSE
+9326,Film companion local,Film Companion,UCL1ChzPwGrmf0OwShJkTEQA,English,entertainment,1,3,FALSE
+9327,Reviews and More,Film Companion,UCI8m-3oHyPuGTgXfuNaAbeQ,English,entertainment,1,3,FALSE
+9328,Film companion shorts,Film Companion,UCYyYMc8M0DTP8c_RSlkJoFw,English,entertainment,1,3,FALSE
+9329,Film companion,Film Companion,UC55os7K-eMLTJy_aXzm5sHw,English,entertainment,1,3,FALSE
+9330,Spotboye,SpotboyE,UCl8J8ntI5SJkwf4V32ap-4Q,English,entertainment,1,3,FALSE
+9331,Agrowon,Sakal,UC-sr8hmR882HCdFxRLAy12g,Marathi,Agro,4,51,FALSE
+9332,Kamadenu Tamil,The Hindu Tamil,UCorwGmogWhOVpIHmfXhqnHQ,Tamil,news,6,13,FALSE
+9333,Anandajothi,The Hindu Tamil,UC5pPf55uk0gTfB3_8Dm5x7g,Tamil,astrology,6,22,FALSE
+9336,Anweshanam,Anweshanam,UCBW_eYJIieIHJm7ubCxDxcg,Malayalam,news,10,13,FALSE
+9337,News60,Anweshanam,UCmoN1rTsiKO2Jv7SEHdgXQA,Malayalam,news,10,13,FALSE
+9338,Top Tamil News,Top Tamil News,UCNmobrznoIYDgFot540FZfg,Tamil,news,6,13,FALSE
+9339,Sree Sannidhi TV,Sree Sannidhi TV,UCo9mV9RX-XYGD9k2ucKFVcA,Telugu,spiritual,5,20,FALSE
+9340,Niravi TV,Niravi TV,UCwkpBhpTectHwqCTWt9vhvg,Telugu,spiritual,5,20,FALSE
+9342,Malayalam Express,Malayalam Express,UC0prC5ZU9rABYiUv22cHhhw,Malayalam,news,10,13,FALSE
+9343,Talkie Express,Malayalam Express,UC2NS0HRw_W3kOYd7WyPQQ2g,Malayalam,entertainment,10,3,FALSE
+9344,Jairangam,Jairangam,UClylYYeaVUUTsZBFIwztYDg,English,entertainment,1,3,FALSE
+9345,Live7 TV,Live7 TV,UCKEHjpR9-NXDFmfjVLUfAgw,Hindi,news,2,13,FALSE
+9346,New Kolkata,New Kolkata,UCnpDLu2UNHPlY2gojCgRqkw,Hindi,news,2,13,FALSE
+9347,ESPN,ESPN,UCiWLfSweyRNmLpgEHekhoAg,English,sports,1,12,FALSE
+9349,TV9 Bharatvarsh,TV9 Network,UCOutOIcn_oho8pyVN3Ng-Pg,Hindi,news,2,13,FALSE
+9350,TV9 Marathi,TV9 Network,UCdOSeEq9Cs2Pco7OCn2_i5w,Marathi,news,4,13,FALSE
+9351,TV9 Bangla,TV9 Network,UCHCR4UFsGwd_VcDa0-a4haw,Bangla,news,7,13,FALSE
+9352,MyGov India,MyGov India,UCTJpJk8bqQQEqeX58z8eimA,English,govt news,14,13,FALSE
+9354,Pratidin Time,Pratidin Time,UC1JkYCOb4wKvdWreGQ0CR9g,Assamese,news,13,13,FALSE
+9355,Aakash Healthcare,Aakash Healthcare,UCSi3HUypMZiZX8gtUNXn2gw,Hindi,health,2,8,FALSE
+9356,TV9 Gujarati,TV9 Network,UCeJWZgSMlzqYEDytDnvzHnw,Gujarati,news,3,13,FALSE
+9357,TV9 Kannada,TV9 Network,UC8dnBi4WUErqYQHZ4PfsLTg,Kannada,news,9,13,FALSE
+9359,TV9 Telugu,TV9 Network,UCPXTXMecYqnRKNdqdVOGSFg,Telugu,news,5,13,FALSE
+9360,News9 Live,TV9 Network,UCRK4FDIkUyslEAUdyRDdCtQ,English,news,1,13,FALSE
+9361,CricketNext,Network 18,UCY9G05h0IBHAimoCQLmovuA,English,cricket,1,18,FALSE
+9362,GunjanShouts,GunjanShouts,UCKRpf_HZfpLwxuIgyeYnsVw,Hindi,health,2,8,FALSE
+9363,Healthy Hamesha,Healthy Hamesha,UCys-KuZ7z2KHsPaW4U_lEBQ,Hindi,health,2,8,FALSE
+9364,Filmy News Gossip,Filmy News Gossip,UCmjlfM8jeNFaGwJLB-02IGQ,Telugu,entertainment,5,3,FALSE
+9365,Health and Fitness Tips,Health and Fitness Tips,UCnlgiPLpnXdXr7opagJv3fA,English,health,1,8,FALSE
+9366,News Karnataka,Spearhead media,UCmfi7_5Nep1MKxo85c8EeSg,Kannada,news,9,13,FALSE
+9367,News Kannada,Spearhead media,UC11F9sbcB7bm8k2YQoPh2Mg,Kannada,news,9,13,FALSE
+9370,Ryan Fernando,Ryan Fernando,UCONax_0CMWVL6b7tHulEQhA,English,health,1,8,FALSE
+9371,Dr Pal,Dr Pal,UCP4k407eomZThGHo_9sgMkg,English,health,1,8,FALSE
+9372,Campaigncalling Media,Campaigncalling Media,UCrp7axFgr0WTbFWybKFKZlQ,Bangla,news,7,13,FALSE
+9373,Isha Foundation,Isha Foundation,UCgaiWfiix1zaQS6Mn5SIw2g,English,health,1,8,FALSE
+9374,Sounds of Isha,Sounds of Isha,UCT8M_hDfTRjUbs8hwahZyBA,English,spiritual,1,20,FALSE
+9375,Sadhguru,Sadhguru,UCcYzLCs3zrQIBVHYA1sK2sw,English,health,1,8,FALSE
+9376,Sadhguru Hindi,Sadhguru,UCJ2KaH9TTjZdmKwwAFwwFkA,Hindi,health,2,8,FALSE
+9377,Sadhguru Tamil,Sadhguru,UCsVCyZFXPPL_iYD8-O2UvrQ,Tamil,spiritual,6,20,FALSE
+9378,Sadhguru Telugu,Sadhguru,UCNxOfQA4r5BSJMIQzRPIeQw,Telugu,spiritual,5,20,FALSE
+9379,Sadhguru Malyalam,Sadhguru,UCIAdGobptLFqTpbDauCnKhw,Malayalam,spiritual,10,20,FALSE
+9380,Sadhguru Kannada,Sadhguru,UC2XEzs5R1mn2wTKgtjuMxiQ,Kannada,spiritual,9,20,FALSE
+9381,Sadhguru Marathi,Sadhguru,UCIiXzyCf-PL3FHve7ylSCeA,Marathi,spiritual,4,20,FALSE
+9382,Sadhguru Gujarati,Sadhguru,UCNI69xZrdnciORKJDd77Fiw,Gujarati,spiritual,3,20,FALSE
+9383,Sadhguru Bangla,Sadhguru,UCj6F6irakw10kKGEe3wZX_A,Bangla,spiritual,7,20,FALSE
+9384,Sadhguru Odia,Sadhguru,UCp212L-a82PSAllY7IIn0Uw,Odia,spiritual,11,20,FALSE
+9385,Sadhguru Assamese ,Sadhguru,UCyaNJ-pnCnRhzGzVZ0jTRow,Assamese,spiritual,13,20,FALSE
+9386,Yatinder Singh,Yatinder Singh,UC12K7FCbzFG5BOMJrHn-sog,Hindi,health,2,8,FALSE
+9387,The Wall News,The Wall News,UCxhf49wOiJeWiUzkBfuAEcQ,Bangla,news,7,13,FALSE
+9388,Prameya News7,Prameya News,UCaErUjJ2bJ7I7fYqrvwS3bw,Odia,news,11,13,FALSE
+9389,Times Applaud,Times Applaud,UCEBefZHjKrPsawl69TiympQ,Hindi,entertainment,2,3,FALSE
+9390,The Statesman,The Statesman,UCbWxDrtUG4D5eJa_TWVOQog,English,Elections 2024,1,69,FALSE
+9391,Vyjayanthi Network,Vyjayanthi Network,UC70pKToywlxOGdgIvz8gYqA,Hindi,Kalki,2,71,FALSE
+9393,Virtual Banjara,Virtual Banjara,UCE81YzUkrvSDLgvDCnZFF1Q,Hindi,Food,2,9,FALSE
+9394,Distance Between,Distance Between,UC9S4dwNL3ZCdtSXjiBQT58Q ,Hindi,Travel,2,11,FALSE
+9395,News Malayalam,News Malayalam,UCXp6JTdq7-WwBK09S7SzmxQ,Malayalam,news,10,13,FALSE
+9397,Meri Sahelli,Meri Sahelli,UCq66YIEmsn4PP_UM1uzELbQ,Hindi,entertainment,2,3,FALSE
+9398,ReporteR Sahab,ReporteR Sahab,UClUpkTfBraeM0RmRy5yB1Ew,Hindi,news,2,13,FALSE
+9399,MeriSahelli Spiritual,MeriSahelli Spiritual,UCdA5y3_qawqRZuDRqq9nH5Q,Hindi,spiritual,2,20,FALSE
+9400,TheSootr,TheSootr,UCnOACbwmpn3_adWl_zU63YQ,Hindi,news,2,13,FALSE
+9401,FastFWD,FastFWD,UC9dfHbEGxDMe8Bl_dNyp0xQ,Hindi,automotive,2,10,FALSE
+9403,Latestly,Latestly,UC3Fci14HzLNhI9_stjLWV7g,Hindi,news,2,13,FALSE
+9404,Aajkaal,Aajkaal.in,UCkwTQGJelg1F-gV2ZmfPg8Q,Bangla,news,7,13,FALSE
+9405,Bollywood Town,Bollywood Town,UCB07306JGVnGTaUU1XVUAhQ,Hindi,entertainment,2,3,FALSE
+9406,Chai And Churan,Chai And Churan,UCGVjx89C-v-2SFPGiSmIMMQ,Hindi,entertainment,2,3,FALSE
+9407,Kisan India,Kisan India,UCC0sKVb7btEKzlQ05pJcvTA,Hindi,Agro,2,51,FALSE
+9408,News Nation,News Nation,UCsNdeLwEZf86swPD3qJJ7Dw,Hindi,news,2,13,FALSE
+9409,Filmy Beyond,Filmy Beyond,UCoJ7kM4LhPhNHlpnN_mWFBA,Hindi,entertainment,2,3,FALSE
+9410,Jaipur Literature Festival,Jaipur Literature Festival,UCKTmQriO9OorGm-YfaRDNeg,English,entertainment,1,3,FALSE
+9411,GaneshaSpeaks,GaneshaSpeaks,UCp6_WveB73-Y0cvHcZXEVGA,Hindi,astrology,2,2,FALSE

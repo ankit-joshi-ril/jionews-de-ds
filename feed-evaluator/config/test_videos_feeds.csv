@@ -1,0 +1,5 @@
+id,publication_id,pub_name,feed_url,language_name,language_id,category_id,category_name
+26,7777,News18 Kerala,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UC-mMi78WJST4N5o8_i1FoXw,Malayalam,10,13,news
+14,7780,TIL - Tamil,https://tmlfeed.samayam.com/langapi/jio/videos,Tamil,6,13,news
+9,7779,IANS,https://ianslive.in/jiofeed-videos.rss,Hindi,2,13,news
+27,7777,News18 Lokmat,https://pubstack.nw18.com/pubsync/v1/api/videos/feeds/jio-news?channel=UCrcpw88HvKJ0skdsHniCJtQ,Marathi,4,13,news
