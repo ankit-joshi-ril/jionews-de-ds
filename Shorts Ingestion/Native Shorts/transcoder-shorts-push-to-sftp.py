@@ -128,7 +128,7 @@ class VideoMetadataExtractor:
                 raise RuntimeError("hachoir: extractMetadata returned None")
 
             # hachoir's meta.get() RAISES (not returns None) on absent keys — always guard with meta.has()
-            width  = cls._safe_int(meta.get('width'))  if meta.has('width')  else 0
+            width = cls._safe_int(meta.get('width')) if meta.has('width') else 0
             height = cls._safe_int(meta.get('height')) if meta.has('height') else 0
 
             duration_secs = 0.0
@@ -140,11 +140,11 @@ class VideoMetadataExtractor:
                     duration_secs = round(float(str(dur).replace(' seconds', '').strip()), 3)
 
             return {
-                'videoWidth':         width,
-                'videoHeight':        height,
-                'videoDurationSecs':  duration_secs,
+                'videoWidth': width,
+                'videoHeight': height,
+                'videoDurationSecs': duration_secs,
                 'videoFileSizeBytes': cls._safe_int(os.path.getsize(file_path)),
-                'videoAspectRatio':   cls._aspect_ratio(width, height),
+                'videoAspectRatio': cls._aspect_ratio(width, height),
             }
 
         except Exception as e:
@@ -339,15 +339,26 @@ class Execute:
 
             # Resolution hygiene check — reject files with unsupported dimensions
             # GCS file is intentionally preserved for audit; only local temp files are cleaned up
+            if w == 0 or h == 0:
+                # hachoir could not read dimensions from the file
+                print(f"{video_id}:: Hygiene check FAILED — could not extract video dimensions")
+                self.cleanup_files(local_csv_path, local_video_path)
+                video_rec['isHygienic'] = False
+                video_rec['hygieneFailureReason'] = "METADATA_UNREADABLE"
+                video_rec['errorMessage'] = "Could not extract video dimensions from file"
+                video_rec['transcoderProcessingStatus'] = "failed"
+                return video_rec
+
             if (w, h) not in ALLOWED_RESOLUTIONS:
-                failure_reason = (
+                error_detail = (
                     f"Unsupported resolution {w}x{h}. "
                     f"Supported: {', '.join(f'{rw}x{rh}' for rw, rh in sorted(ALLOWED_RESOLUTIONS))}"
                 )
-                print(f"{video_id}:: Hygiene check FAILED — {failure_reason}")
+                print(f"{video_id}:: Hygiene check FAILED — {error_detail}")
                 self.cleanup_files(local_csv_path, local_video_path)
                 video_rec['isHygienic'] = False
-                video_rec['hygieneFailureReason'] = failure_reason
+                video_rec['hygieneFailureReason'] = "RESOLUTION_MISMATCH"
+                video_rec['errorMessage'] = error_detail
                 video_rec['transcoderProcessingStatus'] = "failed"
                 return video_rec
 

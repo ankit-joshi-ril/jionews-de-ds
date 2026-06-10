@@ -376,15 +376,26 @@ class Execute:
 
             # Resolution hygiene check — reject files with unsupported dimensions
             # GCS file is intentionally preserved for audit; only local temp files are cleaned up
+            if w == 0 or h == 0:
+                # hachoir could not read dimensions from the file
+                print(f"{video_id}:: Hygiene check FAILED — could not extract video dimensions")
+                self.cleanup_files(local_csv_path, local_video_path)
+                video_rec['isHygienic'] = False
+                video_rec['hygieneFailureReason'] = "METADATA_UNREADABLE"
+                video_rec['errorMessage'] = "Could not extract video dimensions from file"
+                video_rec['transcoderProcessingStatus'] = "failed"
+                return video_rec
+
             if (w, h) not in ALLOWED_RESOLUTIONS:
-                failure_reason = (
+                error_detail = (
                     f"Unsupported resolution {w}x{h}. "
                     f"Supported: {', '.join(f'{rw}x{rh}' for rw, rh in sorted(ALLOWED_RESOLUTIONS))}"
                 )
-                print(f"{video_id}:: Hygiene check FAILED — {failure_reason}")
+                print(f"{video_id}:: Hygiene check FAILED — {error_detail}")
                 self.cleanup_files(local_csv_path, local_video_path)
                 video_rec['isHygienic'] = False
-                video_rec['hygieneFailureReason'] = failure_reason
+                video_rec['hygieneFailureReason'] = "RESOLUTION_MISMATCH"
+                video_rec['errorMessage'] = error_detail
                 video_rec['transcoderProcessingStatus'] = "failed"
                 return video_rec
 

@@ -1,0 +1,1 @@
+& 'C:\Users\Ankit10.Joshi\PycharmProjects\JioNews DE-DS\venv\Scripts\python.exe' -u 'C:\Users\Ankit10.Joshi\PycharmProjects\JioNews DE-DS\backfill_full.py' S2 shorts 1779310200 1780402800 *>> 'C:\Users\Ankit10.Joshi\PycharmProjects\JioNews DE-DS\backfill_S2.log'

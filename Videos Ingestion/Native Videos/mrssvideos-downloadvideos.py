@@ -194,6 +194,8 @@ class Execute:
         if not publisher_video_url or ".mp4" not in publisher_video_url:
             processing_status["processingStatus"] = "failed"
             processing_status["errorMessage"] = f"Invalid video URL: {publisher_video_url}"
+            processing_status["isHygienic"] = False
+            processing_status["hygieneFailureReason"] = "VIDEO_DOWNLOAD_FAILED"
             print(f"{video_id}:: Invalid video URL: {publisher_video_url}")
             return processing_status
 
@@ -214,6 +216,8 @@ class Execute:
         else:
             processing_status["processingStatus"] = "failed"
             processing_status["errorMessage"] = f"Failed to upload video {video_id} to GCS."
+            processing_status["isHygienic"] = False
+            processing_status["hygieneFailureReason"] = "VIDEO_DOWNLOAD_FAILED"
             print(f"{video_id}:: Failed to upload video to GCS.")
 
         return processing_status

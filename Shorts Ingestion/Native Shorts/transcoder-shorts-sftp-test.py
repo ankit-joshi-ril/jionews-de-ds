@@ -109,12 +109,12 @@ def run():
     local_video = f"{TMP_DIR}/{video_id}.mp4"
     local_csv = f"{TMP_DIR}/{video_id}.csv"
 
-    print(f"\n{'='*60}")
+    print(f"\n{'=' * 60}")
     print(f"SHORTS SFTP SMOKE TEST")
     print(f"Video ID : {video_id}")
     print(f"Language : {language}")
     print(f"SFTP dir : {SFTP_REMOTE_DIR}")
-    print(f"{'='*60}\n")
+    print(f"{'=' * 60}\n")
 
     # Step 1: GCS download
     if not download_from_gcs(video_id, local_video):
@@ -142,9 +142,9 @@ def run():
             os.remove(f)
     print("Local temp files cleaned up.")
 
-    print(f"\n{'='*60}")
+    print(f"\n{'=' * 60}")
     print(f"RESULT: video={'OK' if video_ok else 'FAILED'}  csv={'OK' if csv_ok else 'FAILED'}")
-    print(f"{'='*60}\n")
+    print(f"{'=' * 60}\n")
 
 
 if __name__ == "__main__":
